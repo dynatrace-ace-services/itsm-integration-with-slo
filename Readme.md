@@ -27,6 +27,10 @@ For example, if you know that your application will not be used during Bank Holl
 You can do that easily with monaco here (you will find the monaco template for French banck hollidays) : 
 https://github.com/dynatrace-ace-services/quickstart-ace-configurator/tree/main/Maintenance-Window
 
+4) Create the auto-tag rules with `criticity level` (Optional) 
+You can mapp the Dynatrace Service Model with the criticity level of your applications if you have them in your CMDB. 
+These tags will be very important for the priorisation of the problem by your ITSM team.  
+With Service Now, the criticity level Tag could be mapp automatically thanks to the transform mapp to the appropriate Service Desk team. 
 
 ## No need to modify the threshod or the baseline configuration  
 Exception for these cases :  
