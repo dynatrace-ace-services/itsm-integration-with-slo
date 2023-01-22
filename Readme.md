@@ -1,4 +1,4 @@
-# ITSM Integration - Best Practices
+# Easy ITSM Integration 
 
 Deployment best practices : https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme  
 ✅ Easy ITSM integration : https://github.com/dynatrace-ace-services/easy-itsm-integration#readme  
