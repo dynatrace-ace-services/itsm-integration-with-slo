@@ -18,7 +18,7 @@ So we recommand to define an alerting profile with a delay like here to notify t
 With Service now, or with a webhook or with email ... the long duration problems will be sent to the help besk by this Problems Notification:  
 ![image](https://user-images.githubusercontent.com/40337213/213877803-35863688-813f-470b-a76e-1510deb8b085.png)
 
-## 3) Configure Maintenant Windows  
+## 3) Configure Maintenance Windows  
 
 A maintenance window must be configured to disable the notification of the ITSM integration.
 You have to do that for :  
