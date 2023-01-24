@@ -10,6 +10,7 @@ here we distinguish between short-lived problems and long problems :
 - short live problems will be measured as week signal by SLO and treated  by the support level 3  
 - long duration problems have to be send to the ITSM and treated immediatly by the Help Desk  
 So we recommand to define an alerting profile with a delay like here to notify the long duration problems to the helps desk
+In can be between 15 min & 30 min 
 
 ![image](https://user-images.githubusercontent.com/40337213/213877403-f0318bcf-79f5-407e-90fe-eb1e52264e34.png)
 
