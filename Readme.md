@@ -15,7 +15,7 @@ Goal : be alerting on application and/or frontend services if the Burn Rate decr
 - Add SLO alert on Burn Rate
 - Add SLO alert on Error Budget
 - Create Alerting Profile on SLO alert
-- Add ITSM notification 
+- Add ITSM notification  
       - Critical for Burn Rate
       - Error/Warning for Error Budget 
 
