@@ -28,7 +28,7 @@ Goal : be alerting if the problem is persistant and not fix after X minutes.
 - Add ITSM Integration based on this alerting profile. 
 ![image](https://user-images.githubusercontent.com/40337213/213877403-f0318bcf-79f5-407e-90fe-eb1e52264e34.png)
 
-## Best practice 
+## Others best practices 
 
 - Configure Maintenance Windows to disable the notification of the ITSM integration.
 For example, if you know that your application will not be used during Bank Hollidays, create a maintenance window to avoid the alert `Application Low Traffic`
