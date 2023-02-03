@@ -29,7 +29,7 @@ Goal : be alerting if the problem is persistant and not fix after X minutes.
 
 ## Best practices 
 
-- Configure Maintenance Windows to disable the notification of the ITSM integration.
+- Configure Maintenance Windows to disable the notification of the ITSM integration.  
 For example, if you know that your application will not be used during Bank Hollidays, create a maintenance window to avoid the alert `Application Low Traffic`
 You can do that easily with monaco here (you will find the monaco template for [French banck hollidays](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/tree/main/Maintenance-Window))
 
