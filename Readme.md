@@ -4,8 +4,8 @@ Deployment best practices : https://github.com/dynatrace-ace-services/quickstart
 ✅ Easy ITSM integration : https://github.com/dynatrace-ace-services/easy-itsm-integration#readme  
 SLO Simply Smarter installation : https://github.com/dynatrace-ace-services/slo-simply-smarter#readme  
 
-Under construction 
-![image](https://user-images.githubusercontent.com/40337213/216464677-d060b809-b785-4ddc-a056-cfba418ebbdf.png)
+
+![image](https://user-images.githubusercontent.com/40337213/216575127-e4dd3be6-1b72-447d-a700-745cdc281b54.png)
 
 ## ITSM Integration : SLO real time alert 
 
@@ -32,7 +32,7 @@ Goal : be alerting if the problem is persistant and not fix after X minutes.
 
 - Configure Maintenance Windows to disable the notification of the ITSM integration.
 For example, if you know that your application will not be used during Bank Hollidays, create a maintenance window to avoid the alert `Application Low Traffic`
-You can do that easily with monaco here (you will find the monaco template for [French banck hollidays](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/tree/main/Maintenance-Window)) : 
+You can do that easily with monaco here (you will find the monaco template for [French banck hollidays](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/tree/main/Maintenance-Window))
 
 - Don't modify the thresholds (expecpt may be Disk threshold and specific needs in particular cases), but leave Davis to deal with his baseline  
 
