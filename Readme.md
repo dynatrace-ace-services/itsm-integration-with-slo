@@ -24,7 +24,7 @@ Goal : be alerting immediatly on application and/or frontend services if there i
 Goal : be alerting if the problem is persistant and not fix after X minutes. 
 
 - Create a alerting profile with X min delay (between 15 min to 1 h)
-- To define the best delay X min for the production context, you can use the Anton's script.
+- To define the best delay of X min for your production context, you can use the Anton's script.
 - Add ITSM Integration based on this alerting profile. 
 
 ## Best practices 
