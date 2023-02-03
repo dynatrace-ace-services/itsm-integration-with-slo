@@ -26,7 +26,6 @@ Goal : be alerting if the problem is persistant and not fix after X minutes.
 - Create a alerting profile with X min delay (between 15 min to 1 h)
 - To define the best delay X min for the production context, you can use the Anton's script.
 - Add ITSM Integration based on this alerting profile. 
-![image](https://user-images.githubusercontent.com/40337213/213877403-f0318bcf-79f5-407e-90fe-eb1e52264e34.png)
 
 ## Best practices 
 
