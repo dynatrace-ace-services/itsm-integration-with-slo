@@ -4,8 +4,7 @@ Deployment best practices : https://github.com/dynatrace-ace-services/quickstart
 ✅ Easy ITSM integration : https://github.com/dynatrace-ace-services/easy-itsm-integration#readme  
 SLO Simply Smarter installation : https://github.com/dynatrace-ace-services/slo-simply-smarter#readme  
 
-
-![image](https://user-images.githubusercontent.com/40337213/216575127-e4dd3be6-1b72-447d-a700-745cdc281b54.png)
+![image](https://user-images.githubusercontent.com/40337213/216783943-394dd4de-282b-474e-a08c-5e82f2273561.png)
 
 ## ITSM Integration : SLO real time alert 
 
