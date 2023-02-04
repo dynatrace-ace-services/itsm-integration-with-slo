@@ -16,7 +16,7 @@ Goal : be alerting immediatly on application and/or frontend services if there i
 - Create Alerting Profile on SLO alert
 - Add ITSM notification without delay     
       - Critical for Burn Rate  
-      - Error/Warning for Error Budget  
+      - Warning for Error Budget  
 
 ## ITSM Integration : Persistent problems
 
