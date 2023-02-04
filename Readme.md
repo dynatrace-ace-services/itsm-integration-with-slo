@@ -18,7 +18,7 @@ Goal : be alerting immediatly on application and/or frontend services if there i
       - Critical for Burn Rate  
       - Error/Warning for Error Budget  
 
-## ITSM Integration : Persistent problem
+## ITSM Integration : Persistent problems
 
 Goal : be alerting if the problem is persistant and not fix after X minutes. 
 
