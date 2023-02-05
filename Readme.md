@@ -48,8 +48,10 @@ short and long term SLOs
 
 ![image](https://user-images.githubusercontent.com/40337213/216829014-a27f2a68-8f10-4d06-b8f5-f0f4af1db7a6.png)
 
-
-
+## Useful links
+- Youtube : [Observability clinic : SLO](https://www.youtube.com/watch?v=r0Ce5AU7kRs)
+- Youtube : [Boost your Service Desk integration with SLO](https://youtu.be/ugauVEjtfWo)  
+- Tools : [sla-uptime](https://www.site24x7.com/fr/tools/sla-uptime.html)
 
 
 
