@@ -4,7 +4,7 @@ Deployment best practices : https://github.com/dynatrace-ace-services/quickstart
 ✅ Easy ITSM integration : https://github.com/dynatrace-ace-services/easy-itsm-integration#readme  
 SLO Simply Smarter installation : https://github.com/dynatrace-ace-services/slo-simply-smarter#readme  
 
-![image](https://user-images.githubusercontent.com/40337213/216789547-4bd74e88-d7fa-4897-aa2e-a4eb0ec98435.png)
+![image](https://user-images.githubusercontent.com/40337213/216828934-35021505-8635-489c-86e2-991ab1648a1b.png)
 
 ## ITSM Integration : SLO real time alert 
 
@@ -39,14 +39,14 @@ You can do that easily with monaco template (example for [French banck hollidays
 - Create the SLO to take advantage of the real time Burn Rate alerte. 
 
 ## Feedback loop : SLO Quality of Service
-
+short and long term SLOs  
 3 differents SLO are used here :
 
 - Specific SLO for main application or frontend service (as described above)  
 - SLO for each Management Zone "application centric" : clik [here](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/SLO/Readme.md)  
 - SLO Simply Smarter with dynamic SLO : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
-![image](https://user-images.githubusercontent.com/40337213/216828741-605bc7e1-58cc-41eb-a770-c8b4e5024600.png)
+![image](https://user-images.githubusercontent.com/40337213/216829014-a27f2a68-8f10-4d06-b8f5-f0f4af1db7a6.png)
 
 
 
