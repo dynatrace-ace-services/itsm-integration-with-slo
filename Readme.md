@@ -44,7 +44,7 @@ short and long term SLOs
 
 - Specific SLO for main application or frontend service (as described above)  
 - SLO for each Management Zone "application centric" : clik [here](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/SLO/Readme.md)  
-- Simply Smarter with included SLO configurations for the tenant and filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
+- Simply Smarter with global SLO configurations for tenant and filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
 ![image](https://user-images.githubusercontent.com/40337213/216829014-a27f2a68-8f10-4d06-b8f5-f0f4af1db7a6.png)
 
