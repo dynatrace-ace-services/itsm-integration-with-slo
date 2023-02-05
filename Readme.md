@@ -1,4 +1,4 @@
-# Easy ITSM Integration 
+# Easy ITSM Integration & SLO Quality of Service
 
 Deployment best practices : https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme  
 ✅ Easy ITSM integration : https://github.com/dynatrace-ace-services/easy-itsm-integration#readme  
