@@ -1,8 +1,8 @@
 # Easy ITSM Integration & SLO Quality of Service
 
-Deployment best practices : https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme  
-✅ Easy ITSM integration : https://github.com/dynatrace-ace-services/easy-itsm-integration#readme  
-SLO Simply Smarter installation : https://github.com/dynatrace-ace-services/slo-simply-smarter#readme  
+Foundations for deployment and configuration : https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme  
+✅ ITSM integration & SLO Quality of Service : https://github.com/dynatrace-ace-services/easy-itsm-integration#readme  
+Dashboarding Dynatrace Simply Smarter : https://github.com/dynatrace-ace-services/slo-simply-smarter#readme  
 
 ![image](https://user-images.githubusercontent.com/40337213/216828934-35021505-8635-489c-86e2-991ab1648a1b.png)
 
