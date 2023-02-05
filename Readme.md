@@ -10,7 +10,9 @@ SLO Simply Smarter installation : https://github.com/dynatrace-ace-services/slo-
 
 Goal : be alerting immediatly on application and/or frontend services if there is a risk to miss the SLO.
 
-- Create SLO on appplication or frontend services
+- Create SLO for main application or main frontend services (but not for all)
+      - Period 1 hour  
+      - Define only 1 threshold : the SLO target for full Observability of your application.  
 - Add SLO alert on Burn Rate
 - Add SLO alert on Error Budget
 - Create Alerting Profile on SLO alert
