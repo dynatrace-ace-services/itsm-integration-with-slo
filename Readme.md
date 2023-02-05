@@ -46,6 +46,7 @@ You can do that easily with monaco template (example for [French banck hollidays
 - SLO for each Management Zone "application centric" : clik [here](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/SLO/Readme.md)  
 - SLO Simply Smarter with dynamic SLO : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
+![image](https://user-images.githubusercontent.com/40337213/216828741-605bc7e1-58cc-41eb-a770-c8b4e5024600.png)
 
 
 
