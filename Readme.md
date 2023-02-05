@@ -40,8 +40,11 @@ You can do that easily with monaco template (example for [French banck hollidays
 
 ## Feedback loop : SLO with Quality of Service
 
-Configure a SLO for each Management Zone "application centric" : https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/SLO/Readme.md
-Or / and use the SLO Simply Smarter : https://github.com/dynatrace-ace-services/slo-simply-smarter#readme
+3 differents SLO are used here 
+
+- Specific SLO for main application or frontend service (as described above)   
+- SLO for each Management Zone "application centric" : https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/SLO/Readme.md  
+- SLO Simply Smarter with dynamic SLO : https://github.com/dynatrace-ace-services/slo-simply-smarter#readme
 
 
 
