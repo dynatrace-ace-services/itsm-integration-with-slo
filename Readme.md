@@ -38,9 +38,9 @@ You can do that easily with monaco template (example for [French banck hollidays
 
 - Create the SLO to take advantage of the real time Burn Rate alerte. 
 
-## Feedback loop : SLO with Quality of Service
+## Feedback loop : SLO Quality of Service
 
-3 differents SLO are used here 
+3 differents SLO are used here :
 
 - Specific SLO for main application or frontend service (as described above)  
 - SLO for each Management Zone "application centric" : clik [here](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/SLO/Readme.md)  
