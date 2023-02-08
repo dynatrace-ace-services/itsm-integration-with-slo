@@ -38,12 +38,12 @@ You can do that easily with monaco template (example for [French banck hollidays
 - Create the SLO to take advantage of the real time Burn Rate alerte. 
 
 ## Feedback loop : SLO Quality of Service
+Targeted or Consolidated ? 
 
-- Specific SLO for main application or frontend service (as described above)  
-- Simply Smarter with global SLO configurations for tenant and filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
+- Targeted SLO = Specific SLO for main application or frontend service (as described above)  
+- Consolidated SLO = filtered by MZ. You can use the Simply Smarter with the SLO smarters which have been configured globaly by  tenant and can be filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
-![image](https://user-images.githubusercontent.com/40337213/217480860-cf181f88-b953-4df9-be7a-f3123b7f771c.png)
-
+![image](https://user-images.githubusercontent.com/40337213/217484097-b94281fc-77ca-4f9b-91dd-fd67a37123c3.png)
 
 Others possibilities (with monaco): 
 - SLO for each Management Zone "application centric" : clik [here](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/SLO/Readme.md)  
