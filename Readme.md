@@ -4,14 +4,13 @@ Foundations for deployment & configuration : [quickstart-ace-configurator](https
 ✅ ITSM integration & SLO Quality of Service : [easy-itsm-integration](https://github.com/dynatrace-ace-services/easy-itsm-integration#readme)  
 Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
-![image](https://user-images.githubusercontent.com/40337213/216986308-8505ba3e-f752-491a-aecc-c892fbc93b72.png)
+![image](https://user-images.githubusercontent.com/40337213/217480208-eca7cb70-9533-42f0-9ba2-8b1c2d3fef7c.png)
 
 ## ITSM Integration : SLO real time alert 
 
 Goal : be alerting immediatly on application and/or frontend services if there is a risk to miss the SLO.
 
-- Create SLO for main application or main frontend services (but not for all)
-      - Period 1 hour  
+- Create SLO for main application or main frontend services (but not for all)  
       - Define only 1 threshold : the SLO target for full Observability of your application.  
 - Add SLO alert on Burn Rate
 - Add SLO alert on Error Budget
@@ -39,14 +38,15 @@ You can do that easily with monaco template (example for [French banck hollidays
 - Create the SLO to take advantage of the real time Burn Rate alerte. 
 
 ## Feedback loop : SLO Quality of Service
-short and long term SLOs  
-3 differents SLO are used here :
 
 - Specific SLO for main application or frontend service (as described above)  
-- SLO for each Management Zone "application centric" : clik [here](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/SLO/Readme.md)  
 - Simply Smarter with global SLO configurations for tenant and filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
-![image](https://user-images.githubusercontent.com/40337213/216829014-a27f2a68-8f10-4d06-b8f5-f0f4af1db7a6.png)
+![image](https://user-images.githubusercontent.com/40337213/217480860-cf181f88-b953-4df9-be7a-f3123b7f771c.png)
+
+
+Others possibilities (with monaco): 
+- SLO for each Management Zone "application centric" : clik [here](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/SLO/Readme.md)  
 
 ## Useful links
 - Youtube : [Observability clinic : SLO](https://www.youtube.com/watch?v=r0Ce5AU7kRs)
