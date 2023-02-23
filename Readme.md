@@ -43,7 +43,7 @@ Targeted or Consolidated ?
 - Targeted SLO = Specific SLO for main application or frontend service (as described above)  
 - Consolidated SLO = filtered by MZ. You can use the Simply Smarter with the SLO smarters which have been configured globaly by  tenant and can be filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
-![image](https://user-images.githubusercontent.com/40337213/217484860-0594298b-cb35-4e4f-bf71-8e3f4a51cf80.png)
+![image](https://user-images.githubusercontent.com/40337213/220980927-7ee584e7-b3a7-4d31-b832-4a996cb26f3d.png)
 
 Others possibilities (with monaco): 
 - SLO for each Management Zone "application centric" : clik [here](https://github.com/dynatrace-ace-services/quickstart-ace-configurator/blob/main/SLO/Readme.md)  
