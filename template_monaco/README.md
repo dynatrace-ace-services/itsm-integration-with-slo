@@ -30,7 +30,7 @@
     export MyTenant=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...) or 
     export MyToken=dt0c01.1234ABCD.XXXX
 
-## 3) Burn Alert for each Managemennt Zone Application centric with monaco template  
+## 3) `SLO Burn alert` for each Managemennt Zone Application centric with monaco template  
 
 `deploy` SLO Fast Burn alert and SLO Slow Burn alert for each MZ application centric  
 
