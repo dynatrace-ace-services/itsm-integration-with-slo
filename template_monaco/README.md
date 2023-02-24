@@ -60,3 +60,10 @@ Slow Burn alert
 
 SRE recommandation and best practices
 ![image](https://user-images.githubusercontent.com/40337213/221123425-494fa29c-cabe-4c21-8401-3e97fedeeaef.png)
+
+
+# Configurations:
+
+![image](https://user-images.githubusercontent.com/40337213/221176334-bb89ec00-eb54-46b9-a551-061641ca8498.png)
+
+![image](https://user-images.githubusercontent.com/40337213/221176996-bf517811-816e-461d-bcaf-c31accfb52cd.png)
