@@ -1,0 +1,21 @@
+config:
+- application-performance-slowburn: application-performance-slowburn.json
+- application-performance-fastburn: application-performance-fastburn.json
+- frontendservice-availability-fastburn: frontendservice-availability-fastburn.json
+- frontendservice-availability-slowburn: frontendservice-availability-slowburn.json
+application-performance-fastburn:
+- name: '[{{.Env.slo_prefix}}] - application - performance - fast burn'
+- sloprefix: {{.Env.slo_prefix}}
+- mzname: {{.Env.mz_name}}
+application-performance-slowburn:
+- name: '[{{.Env.slo_prefix}}] - application - performance - slow burn'
+- sloprefix: {{.Env.slo_prefix}}
+- mzname: {{.Env.mz_name}}
+frontendservice-availability-fastburn:
+- name: '[{{.Env.slo_prefix}}] - frontend service - availability - fast burn'
+- sloprefix: {{.Env.slo_prefix}}
+- mzname: {{.Env.mz_name}}
+frontendservice-availability-slowburn:
+- name: '[{{.Env.slo_prefix}}] - frontend service - availability - slow burn'
+- sloprefix: {{.Env.slo_prefix}}
+- mzname: {{.Env.mz_name}}

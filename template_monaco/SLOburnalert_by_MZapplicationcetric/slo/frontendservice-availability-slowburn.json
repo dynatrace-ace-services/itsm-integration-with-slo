@@ -1,0 +1,15 @@
+{
+ "enabled": true,
+ "errorBudgetBurnRate": {
+  "burnRateVisualizationEnabled": true,
+  "fastBurnThreshold": 2
+ },
+ "evaluationType": "AGGREGATE",
+ "filter": "type(SERVICE),toRelationships.calls(type(APPLICATION),mzname({{.mzname}}))",
+ "metricExpression": "(100)*(builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy())",
+ "name": "{{.name}}",
+ "target": 98,
+ "timeframe": "-1d",
+ "useRateMetric": true,
+ "warning": 99
+}

@@ -1,0 +1,4 @@
+config:
+- bestpracticeITSMintegration: bestpracticeITSMintegration.json
+bestpracticeITSMintegration:
+- name: '[bestpractice]ITSM_integration'
