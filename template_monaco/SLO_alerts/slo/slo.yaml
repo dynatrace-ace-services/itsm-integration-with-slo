@@ -1,0 +1,11 @@
+config:
+- application-performance: application-performance.json
+- frontendservice-availability: frontendservice-availability.json
+application-performance:
+- name: '[{{.Env.slo_prefix}}] - application - performance'
+- sloprefix: {{.Env.slo_prefix}}
+- mzname: {{.Env.mz_name}}
+frontendservice-availability:
+- name: '[{{.Env.slo_prefix}}] - frontendservice - availability'
+- sloprefix: {{.Env.slo_prefix}}
+- mzname: {{.Env.mz_name}}
