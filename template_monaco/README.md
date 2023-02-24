@@ -71,7 +71,7 @@ Details
 
 ![image](https://user-images.githubusercontent.com/40337213/221258748-1c9be723-713c-4cb5-b336-d2bb7f433be0.png)
 
-Use these `alerting profile`in the problem notification configuration of your ITSM integration.
+Use these `alerting profile`in the problem `notifiocation` configuration of your ITSM integration.
 
 ## Useful links : 
 
