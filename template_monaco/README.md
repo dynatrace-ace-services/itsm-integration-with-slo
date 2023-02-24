@@ -14,7 +14,7 @@
  - Read SLO
  - Write SLO
  
-## 3) `Monaco`Import `SLO template`
+## 3)  `SLO burn alerts` with monaco template
  - Use [monaco](https://dynatrace-oss.github.io/dynatrace-monitoring-as-code/)
  
  `installation` (example for linux x86)
@@ -38,7 +38,7 @@
 	export slo_prefix=<mzName without space and special character, only [A-Za-z0-9]>
     ./monaco deploy -e=environments.yaml SLOburnalert_by_MZapplicationcetric
        
-## 3) ITSM integration with monaco template  
+## 3) `ITSM integration` with monaco template  
 
 `deploy` Alerting Profile for ITSM integration
 
