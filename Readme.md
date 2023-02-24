@@ -20,7 +20,7 @@ Goal : be alerting immediatly on application and/or frontend services if there i
       - Warning for Slow Burn Rate or Error Budget  
 
 
-You can use template monaco [here](https://github.com/dynatrace-ace-services/easy-itsm-integration/tree/main/template_monaco) 
+You can use these monaco templates [here](https://github.com/dynatrace-ace-services/easy-itsm-integration/tree/main/template_monaco) 
 
 ## ITSM Integration : Persistent problems
 
