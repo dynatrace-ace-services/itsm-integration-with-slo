@@ -48,22 +48,15 @@
 Use this Alerting Profile in your Service Desk `notifiocation` rule. 
 
 
+## Configurations:
 
-# SLO alerts : 
-https://cloud.google.com/stackdriver/docs/solutions/slo-monitoring/alerting-on-budget-burn-rate
+![image](https://user-images.githubusercontent.com/40337213/221256100-a8e2bfe1-cf34-4b83-b0b2-5da6eac7cfc6.png)
 
-Fast Burn alert 
-![image](https://user-images.githubusercontent.com/40337213/221123550-8e0731f6-4a29-40d1-8e73-e0f1501bcce6.png)
+![image](https://user-images.githubusercontent.com/40337213/221256160-6eb6f658-16d0-478c-9a2f-71648cc60901.png)
 
-Slow Burn alert
-![image](https://user-images.githubusercontent.com/40337213/221123607-61daa34b-dc0c-48b6-b5d0-0a8df210d147.png)
-
-SRE recommandation and best practices
-![image](https://user-images.githubusercontent.com/40337213/221123425-494fa29c-cabe-4c21-8401-3e97fedeeaef.png)
+![image](https://user-images.githubusercontent.com/40337213/221256258-1a0f26a2-27b1-488c-8cfc-02b82c4a4417.png)
 
 
-# Configurations:
+## Useful links : 
 
-![image](https://user-images.githubusercontent.com/40337213/221176334-bb89ec00-eb54-46b9-a551-061641ca8498.png)
-
-![image](https://user-images.githubusercontent.com/40337213/221176996-bf517811-816e-461d-bcaf-c31accfb52cd.png)
+- SRE best practices : https://cloud.google.com/stackdriver/docs/solutions/slo-monitoring/alerting-on-budget-burn-rate
