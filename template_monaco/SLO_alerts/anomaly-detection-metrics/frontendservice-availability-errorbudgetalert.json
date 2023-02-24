@@ -11,7 +11,7 @@
   "alertingOnMissingData": false,
   "dealertingSamples": 5,
   "samples": 5,
-  "threshold": 90,
+  "threshold": 98,
   "type": "STATIC_THRESHOLD",
   "unit": "UNSPECIFIED",
   "violatingSamples": 3
