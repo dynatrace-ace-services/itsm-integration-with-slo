@@ -17,7 +17,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
  - Read SLO
  - Write SLO
  
-## 3)  `SLO burn alerts` with monaco template
+## 3)  `SLO alerts` with monaco template
  - Use [monaco](https://dynatrace-oss.github.io/dynatrace-monitoring-as-code/)
  
  `installation` (for linux x86)
