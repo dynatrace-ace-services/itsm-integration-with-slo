@@ -17,10 +17,10 @@
 ## 3)  `SLO burn alerts` with monaco template
  - Use [monaco](https://dynatrace-oss.github.io/dynatrace-monitoring-as-code/)
  
- `installation` (example for linux x86)
+ `installation` (for linux x86)
  
     git clone https://github.com/dynatrace-ace-services/easy-itsm-integration
-    cd easy-itsm-integration
+    cd easy-itsm-integration/template_monaco
     curl -L https://github.com/dynatrace/dynatrace-configuration-as-code/releases/download/v1.8.9/monaco-linux-386 -o monaco
     chmod +x monaco
        
