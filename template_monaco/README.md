@@ -47,3 +47,14 @@
 
 Use this Alerting Profile in your Service Desk `notifiocation` rule. 
 
+
+
+# SLO alerts : 
+Fast Burn alert 
+![image](https://user-images.githubusercontent.com/40337213/221123550-8e0731f6-4a29-40d1-8e73-e0f1501bcce6.png)
+
+Slow Burn alert
+![image](https://user-images.githubusercontent.com/40337213/221123607-61daa34b-dc0c-48b6-b5d0-0a8df210d147.png)
+
+SRE recommandation and best practices
+![image](https://user-images.githubusercontent.com/40337213/221123425-494fa29c-cabe-4c21-8401-3e97fedeeaef.png)
