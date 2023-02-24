@@ -1,0 +1,27 @@
+{
+ "alertCondition": "ABOVE",
+ "dealertingSamples": 5,
+ "description": "\"[{{.sloprefix}}] - application - performance - slow burn\" is at risk. The burn-rate exceeded {threshold}.\n",
+ "disabledReason": "NONE",
+ "enabled": true,
+ "eventType": "CUSTOM_ALERT",
+ "metricSelector": "func:slo.errorBudgetBurnRate._{{.sloprefix}}____application___performance___slow_burn",
+ "monitoringStrategy": {
+  "alertCondition": "ABOVE",
+  "alertingOnMissingData": false,
+  "dealertingSamples": 5,
+  "samples": 15,
+  "threshold": 2,
+  "type": "STATIC_THRESHOLD",
+  "unit": "UNSPECIFIED",
+  "violatingSamples": 10
+ },
+ "name": "{{.name}}",
+ "primaryDimensionKey": "dt.entity.application",
+ "samples": 15,
+ "severity": "CUSTOM_ALERT",
+ "threshold": 2,
+ "unit": "UNSPECIFIED",
+ "violatingSamples": 10,
+ "warningReason": "NONE"
+}
