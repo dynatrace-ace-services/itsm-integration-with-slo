@@ -50,6 +50,8 @@ Use this Alerting Profile in your Service Desk `notifiocation` rule.
 
 
 # SLO alerts : 
+https://cloud.google.com/stackdriver/docs/solutions/slo-monitoring/alerting-on-budget-burn-rate
+
 Fast Burn alert 
 ![image](https://user-images.githubusercontent.com/40337213/221123550-8e0731f6-4a29-40d1-8e73-e0f1501bcce6.png)
 
