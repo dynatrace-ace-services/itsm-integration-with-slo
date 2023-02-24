@@ -32,10 +32,11 @@
 
 ## 3) `SLO Burn alert` for each Managemennt Zone Application centric with monaco template  
 
-`deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric  
+`deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric   
 
-	export mz_name=<mzName exists in the tenant>
-	export slo_prefix=<mzName without space and special character, only [A-Za-z0-9]>
+    export mz_name=<mzName exists in the tenant>
+    export slo_prefix=<mzName without space and special character, only [A-Za-z0-9]>
+    
     ./monaco deploy -e=environments.yaml SLOburnalert_by_MZapplicationcetric
        
 ## 3) `ITSM integration` with monaco template  
