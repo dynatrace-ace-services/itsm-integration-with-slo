@@ -12,12 +12,15 @@ Goal : be alerting immediatly on application and/or frontend services if there i
 
 - Create SLO for main application or main frontend services (but not for all)  
       - Define only 1 threshold : the SLO target for full Observability of your application.  
-- Add SLO alert on Burn Rate
-- Add SLO alert on Error Budget
+- Add SLO alert on Fast Burn rate
+- Add SLO alert on SLOW  Burn rate
 - Create Alerting Profile on SLO alert
 - Add ITSM notification without delay     
       - Critical for Fast Burn Rate  
       - Warning for Slow Burn Rate or Error Budget  
+
+
+You can use template monaco [here](https://github.com/dynatrace-ace-services/easy-itsm-integration/tree/main/template_monaco) 
 
 ## ITSM Integration : Persistent problems
 
