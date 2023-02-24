@@ -32,7 +32,7 @@
 
 ## 3) `SLO Burn alert` for each Managemennt Zone Application centric with monaco template  
 
-`deploy` SLO Fast Burn alert and SLO Slow Burn alert for each MZ application centric  
+`deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric  
 
 	export mz_name=<mzName exists in the tenant>
 	export slo_prefix=<mzName without space and special character, only [A-Za-z0-9]>
@@ -52,7 +52,7 @@ Use this Alerting Profile in your Service Desk `notifiocation` rule.
 
 ![image](https://user-images.githubusercontent.com/40337213/221256100-a8e2bfe1-cf34-4b83-b0b2-5da6eac7cfc6.png)
 
-![image](https://user-images.githubusercontent.com/40337213/221256160-6eb6f658-16d0-478c-9a2f-71648cc60901.png)
+![image](https://user-images.githubusercontent.com/40337213/221256632-e97f08c2-93ed-4edd-9c52-6838b9a1e765.png)
 
 ![image](https://user-images.githubusercontent.com/40337213/221256258-1a0f26a2-27b1-488c-8cfc-02b82c4a4417.png)
 
