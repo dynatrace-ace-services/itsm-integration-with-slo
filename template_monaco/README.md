@@ -17,7 +17,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
  - Read SLO
  - Write SLO
  
-## 3)  `SLO alerts` with monaco template
+## 3)  Install monaco
  - Use [monaco](https://dynatrace-oss.github.io/dynatrace-monitoring-as-code/)
  
  `installation` (for linux x86)
@@ -33,7 +33,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     export MyTenant=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...) or 
     export MyToken=dt0c01.1234ABCD.XXXX
 
-## 3) `SLO alert` for each Managemennt Zone Application centric with monaco template  
+## 4) `SLO alert`
 
 `deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric   
 
@@ -42,7 +42,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     
     ./monaco deploy -e=environments.yaml SLO_alerts
        
-## 3) `ITSM integration` with monaco template  
+## 5) `ITSM integration`
 
 `deploy` Alerting Profile for ITSM integration
 
