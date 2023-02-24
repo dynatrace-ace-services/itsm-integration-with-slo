@@ -37,7 +37,7 @@
     export mz_name=<mzName exists in the tenant>
     export slo_prefix=<mzName without space and special character, only [A-Za-z0-9]>
     
-    ./monaco deploy -e=environments.yaml SLOburnalert_by_MZapplicationcetric
+    ./monaco deploy -e=environments.yaml SLO_alerts
        
 ## 3) `ITSM integration` with monaco template  
 
