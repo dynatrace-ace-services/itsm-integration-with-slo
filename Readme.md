@@ -56,6 +56,9 @@ Others possibilities (with monaco):
 - Youtube : [Boost your Service Desk integration with SLO](https://youtu.be/ugauVEjtfWo)  
 - Tools : [sla-uptime](https://www.site24x7.com/fr/tools/sla-uptime.html)
 
+# Next :
+
+[template_monaco](easy-itsm-integration/tree/main/template_monaco)
 
 
 
