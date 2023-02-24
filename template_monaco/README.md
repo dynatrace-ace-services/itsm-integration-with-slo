@@ -1,4 +1,4 @@
-# Configure SLO alerts and ITM integration with template monaco
+# Configure SLO alerts and ITSM integration with template monaco
 
 Create specifc SLO per management zone "Application Centric" on front entities for a real time alerting : 
 
