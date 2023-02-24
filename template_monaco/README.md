@@ -50,7 +50,16 @@ Use this Alerting Profile in your Service Desk `notifiocation` rule.
 
 
 ## SLO alert, default configurations:
+SLO
+![image](https://user-images.githubusercontent.com/40337213/221262130-2d2f0f7e-b650-4b63-8178-72566598b0ff.png)
 
+Metric events
+![image](https://user-images.githubusercontent.com/40337213/221261839-49969b7e-bcd2-4761-bb1d-aeb4a03533cb.png)
+
+Management Zone
+![image](https://user-images.githubusercontent.com/40337213/221263481-4c96a7ea-ad5c-49aa-8551-43550cedb067.png)
+
+Details
 ![image](https://user-images.githubusercontent.com/40337213/221256100-a8e2bfe1-cf34-4b83-b0b2-5da6eac7cfc6.png)
 
 ![image](https://user-images.githubusercontent.com/40337213/221256632-e97f08c2-93ed-4edd-9c52-6838b9a1e765.png)
