@@ -2,8 +2,7 @@
 
 Create specifc SLO per management zone "Application Centric" on front entities for a real time alerting : 
 
-![image](https://user-images.githubusercontent.com/40337213/221263481-4c96a7ea-ad5c-49aa-8551-43550cedb067.png)
-
+![image](https://user-images.githubusercontent.com/40337213/221270094-5b08615b-aa8f-459c-8108-60582657e31f.png)
 
 ## 1) Prerequisites installation
 
