@@ -33,7 +33,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     export MyTenant=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...) or 
     export MyToken=dt0c01.1234ABCD.XXXX
 
-## 4) `SLO alert`
+## 4) SLO alert
 
 `deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric   
 
@@ -42,7 +42,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     
     ./monaco deploy -e=environments.yaml SLO_alerts
        
-## 5) `ITSM integration`
+## 5) ITSM integration
 
 `deploy` Alerting Profile for ITSM integration
 
@@ -75,4 +75,4 @@ Use these `alerting profile`in the problem notification configuration of your IT
 
 ## Useful links : 
 
-- SRE best practices : https://cloud.google.com/stackdriver/docs/solutions/slo-monitoring/alerting-on-budget-burn-rate
+SRE best practices : https://cloud.google.com/stackdriver/docs/solutions/slo-monitoring/alerting-on-budget-burn-rate
