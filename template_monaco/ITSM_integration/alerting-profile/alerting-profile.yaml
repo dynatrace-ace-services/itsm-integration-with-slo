@@ -1,0 +1,8 @@
+config:
+- ITSMintegrationSLOalertsnotification: ITSMintegrationSLOalertsnotification.json
+- ITSMintegrationproblemsnotification: ITSMintegrationproblemsnotification.json
+ITSMintegrationSLOalertsnotification:
+- name: ITSM_integration_SLO_alerts_notification
+ITSMintegrationproblemsnotification:
+- name: ITSM_integration_problems_notification
+

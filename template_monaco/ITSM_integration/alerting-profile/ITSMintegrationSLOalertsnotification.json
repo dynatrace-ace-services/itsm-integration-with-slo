@@ -1,0 +1,47 @@
+{
+ "displayName": "{{.name}}",
+ "eventTypeFilters": [
+  {
+   "customEventFilter": {
+    "customTitleFilter": {
+     "caseInsensitive": true,
+     "enabled": true,
+     "negate": false,
+     "operator": "ENDS_WITH",
+     "value": "fast burn alert"
+    }
+   }
+  },
+  {
+   "customEventFilter": {
+    "customTitleFilter": {
+     "caseInsensitive": true,
+     "enabled": true,
+     "negate": false,
+     "operator": "ENDS_WITH",
+     "value": "error budget alert"
+    }
+   }
+  }
+ ],
+ "managementZoneId": null,
+ "mzId": null,
+ "rules": [
+  {
+   "delayInMinutes": 0,
+   "severityLevel": "AVAILABILITY",
+   "tagFilter": {
+    "includeMode": "NONE",
+    "tagFilters": []
+   }
+  },
+  {
+   "delayInMinutes": 5,
+   "severityLevel": "CUSTOM_ALERT",
+   "tagFilter": {
+    "includeMode": "NONE",
+    "tagFilters": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+config:
+- realtimealert: realtimealert.json
+realtimealert:
+- name: 'real_time_alert'

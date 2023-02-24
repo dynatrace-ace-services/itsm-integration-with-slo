@@ -1,0 +1,70 @@
+{
+ "displayName": "{{.name}}",
+ "eventTypeFilters": [],
+ "managementZoneId": null,
+ "mzId": null,
+ "rules": [
+  {
+   "delayInMinutes": 60,
+   "severityLevel": "PERFORMANCE",
+   "tagFilter": {
+    "includeMode": "NONE",
+    "tagFilters": []
+   }
+  },
+  {
+   "delayInMinutes": 60,
+   "severityLevel": "RESOURCE_CONTENTION",
+   "tagFilter": {
+    "includeMode": "NONE",
+    "tagFilters": []
+   }
+  },
+  {
+   "delayInMinutes": 60,
+   "severityLevel": "MONITORING_UNAVAILABLE",
+   "tagFilter": {
+    "includeMode": "NONE",
+    "tagFilters": []
+   }
+  },
+  {
+   "delayInMinutes": 60,
+   "severityLevel": "ERROR",
+   "tagFilter": {
+    "includeMode": "NONE",
+    "tagFilters": []
+   }
+  },
+  {
+   "delayInMinutes": 60,
+   "severityLevel": "CUSTOM_ALERT",
+   "tagFilter": {
+    "includeMode": "NONE",
+    "tagFilters": []
+   }
+  },
+  {
+   "delayInMinutes": 60,
+   "severityLevel": "AVAILABILITY",
+   "tagFilter": {
+    "includeMode": "NONE",
+    "tagFilters": []
+   }
+  },
+  {
+   "delayInMinutes": 5,
+   "severityLevel": "AVAILABILITY",
+   "tagFilter": {
+    "includeMode": "INCLUDE_ALL",
+    "tagFilters": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "real_time_alert",
+      "value": null
+     }
+    ]
+   }
+  }
+ ]
+}
