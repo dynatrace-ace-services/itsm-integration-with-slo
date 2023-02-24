@@ -48,7 +48,7 @@
 Use this Alerting Profile in your Service Desk `notifiocation` rule. 
 
 
-## Configurations:
+## SLO alert, default configurations:
 
 ![image](https://user-images.githubusercontent.com/40337213/221256100-a8e2bfe1-cf34-4b83-b0b2-5da6eac7cfc6.png)
 
@@ -56,6 +56,11 @@ Use this Alerting Profile in your Service Desk `notifiocation` rule.
 
 ![image](https://user-images.githubusercontent.com/40337213/221256258-1a0f26a2-27b1-488c-8cfc-02b82c4a4417.png)
 
+## ITSM integration, default configurations:
+
+![image](https://user-images.githubusercontent.com/40337213/221258748-1c9be723-713c-4cb5-b336-d2bb7f433be0.png)
+
+Use these `alerting profile`in the problem notification configuration of your ITSM integration.
 
 ## Useful links : 
 
