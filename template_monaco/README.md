@@ -1,4 +1,4 @@
-# Configure SLO burn alerts and ITM integration with template monaco
+# Configure SLO alerts and ITM integration with template monaco
 
 
 ## 1) Prerequisites installation
