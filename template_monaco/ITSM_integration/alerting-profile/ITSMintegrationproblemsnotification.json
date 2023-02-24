@@ -53,7 +53,7 @@
    }
   },
   {
-   "delayInMinutes": 5,
+   "delayInMinutes": 0,
    "severityLevel": "AVAILABILITY",
    "tagFilter": {
     "includeMode": "INCLUDE_ALL",
