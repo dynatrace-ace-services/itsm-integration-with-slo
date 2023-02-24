@@ -58,7 +58,7 @@ Others possibilities (with monaco):
 
 # Next :
 
-[template_monaco](/tree/main/template_monaco)
+[template_monaco](/template_monaco)
 
 
 
