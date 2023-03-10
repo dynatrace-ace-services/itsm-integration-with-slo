@@ -1,7 +1,7 @@
 {
  "alertCondition": "ABOVE",
  "dealertingSamples": 15,
- "description": "SLO \"[{{.sloprefix}}] - frontendservice - availability\" is at risk. The burn-rate exceeded {threshold}.\n",
+ "description": "The SLO \"[{{.sloprefix}}] - frontendservice - availability\" is at risk. The burn-rate exceeded {threshold}.\n",
  "disabledReason": "NONE",
  "enabled": true,
  "eventType": "AVAILABILITY",
