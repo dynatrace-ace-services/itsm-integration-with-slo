@@ -33,23 +33,25 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     export MyTenant=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...) or 
     export MyToken=dt0c01.1234ABCD.XXXX
 
-## 4) SLO alert
-
-`deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric   
-
-    export mz_name=<mzName exists in the tenant>
-    export slo_prefix=<mzName without space and special character, only [A-Za-z0-9]>
-    
-    ./monaco deploy -e=environments.yaml SLO_alerts
-       
-## 5) ITSM integration
+## 4) ITSM integration
 
 `deploy` Alerting Profile for ITSM integration
 
      ./monaco deploy -e=environments.yaml ITSM_integration
 
 
-Use this Alerting Profile in your Service Desk `notifiocation` rule. 
+Use this Alerting Profile in your Service Desk `notification` rule. 
+
+## 5) SLO alert 
+
+`deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric   
+
+    export mz_name=<mzName exists in the tenant>
+    export slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_]>
+    
+    ./monaco deploy -e=environments.yaml SLO_alerts
+       
+
 
 
 ## SLO alert, default configurations:
