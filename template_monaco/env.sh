@@ -17,6 +17,6 @@ export application_performance_burnrate=10
 export application_performance_period="-1w"
 #default metric events
 export application_performance_fastburnalert_enable="true"
-export aapplication_performance_errorbudgetalert_enable="true"
+export application_performance_errorbudgetalert_enable="true"
 export frontendservice_availability_fastburnalert_enable="true"
 export frontendservice_availability_errorbudgetalert_enable="true"
