@@ -2,7 +2,7 @@
  "enabled": true,
  "errorBudgetBurnRate": {
   "burnRateVisualizationEnabled": true,
-  "fastBurnThreshold": 10
+  "fastBurnThreshold": "{{.burnrate}}"
  },
  "evaluationType": "AGGREGATE",
  "filter": "type(SERVICE),mzname({{.mzname}}),tag(SLO:frontendservice)",
