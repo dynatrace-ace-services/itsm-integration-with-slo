@@ -19,7 +19,7 @@
  "name": "{{.name}}",
  "primaryDimensionKey": "dt.entity.service",
  "samples": 15,
- "severity": "AVAILABILITY",
+ "severity": "CUSTOM_ALERT",
  "threshold": 10,
  "unit": "UNSPECIFIED",
  "violatingSamples": 1,
