@@ -1,6 +1,7 @@
 config:
 - itsm: ITSM.json
 - slo: SLO.json
-realtimealert:
+itsm:
 - name: 'ITSM'
+slo:
 - name: 'SLO'
