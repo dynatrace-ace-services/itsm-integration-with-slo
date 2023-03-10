@@ -65,7 +65,7 @@ Metric events
 Details
 ![image](https://user-images.githubusercontent.com/40337213/221256100-a8e2bfe1-cf34-4b83-b0b2-5da6eac7cfc6.png)
 
-![image](https://user-images.githubusercontent.com/40337213/221256632-e97f08c2-93ed-4edd-9c52-6838b9a1e765.png)
+![image](https://user-images.githubusercontent.com/40337213/224392526-ea7277cd-5cd3-415b-a0d8-1fee4cf34b80.png)
 
 ![image](https://user-images.githubusercontent.com/40337213/221256258-1a0f26a2-27b1-488c-8cfc-02b82c4a4417.png)
 
