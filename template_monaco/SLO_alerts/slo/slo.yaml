@@ -14,7 +14,7 @@ frontendservice-availability:
 - sloprefix: {{.Env.slo_prefix}}
 - mzname: {{.Env.mz_name}}
 - mzname: {{.Env.mz_name}}
-- target: {{.Env.application_performance_fastburnalert_enable}}
-- warning: {{.Env.application_performance_errorbudgetalert_enable}}
-- burnrate: {{.Env.frontendservice_availability_fastburnalert_enable}}
-- period: {{.Env.frontendservice_availability_errorbudgetalert_enable}}
+- target: {{.Env.application_performance_target}}
+- warning: {{.Env.application_performance_warning}}
+- burnrate: {{.Env.application_performance_burnrate}}
+- period: {{.Env.application_performance_period}}
