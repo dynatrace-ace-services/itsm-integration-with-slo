@@ -20,7 +20,7 @@
  "primaryDimensionKey": "dt.entity.service",
  "samples": 60,
  "severity": "CUSTOM_ALERT",
- "threshold": 95,
+ "threshold": 98,
  "unit": "UNSPECIFIED",
  "violatingSamples": 10,
  "warningReason": "NONE"
