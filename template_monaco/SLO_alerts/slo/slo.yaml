@@ -4,8 +4,8 @@ config:
 application-performance:
 - name: '[{{.Env.slo_prefix}}] - application - performance'
 - filter: 'type(APPLICATION),mzname({{.mzname}})'
-- target: {{.Env.application_performance_target}}
 - expression: '(100)*(builtin:apps.web.actionCount.category:filter(eq(\"Apdex category\",SATISFIED)):splitBy())/(builtin:apps.web.actionCount.category:splitBy())'
+- target: {{.Env.application_performance_target}}
 - warning: {{.Env.application_performance_warning}}
 - burnrate: {{.Env.application_performance_burnrate}}
 - period: {{.Env.application_performance_period}}
