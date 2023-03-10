@@ -1,6 +1,6 @@
 {
  "alertCondition": "BELOW",
- "dealertingSamples": 5,
+ "dealertingSamples": 15,
  "description": "SLO error budget from \"[{{.sloprefix}}] - application - performance\" is below the warning limit of {threshold}.\n",
  "disabledReason": "NONE",
  "enabled": false,
@@ -9,18 +9,18 @@
  "monitoringStrategy": {
   "alertCondition": "BELOW",
   "alertingOnMissingData": false,
-  "dealertingSamples": 5,
-  "samples": 5,
+  "dealertingSamples": 15,
+  "samples": 60,
   "threshold": 90,
   "type": "STATIC_THRESHOLD",
   "unit": "UNSPECIFIED",
-  "violatingSamples": 3
+  "violatingSamples": 10
  },
  "name": "{{.name}}",
- "samples": 5,
+ "samples": 60,
  "severity": "CUSTOM_ALERT",
  "threshold": 90,
  "unit": "UNSPECIFIED",
- "violatingSamples": 3,
+ "violatingSamples": 10,
  "warningReason": "NONE"
 }
