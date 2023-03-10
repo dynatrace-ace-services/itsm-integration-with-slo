@@ -5,7 +5,7 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(SERVICE),tag(SLO:frontendservice ),mzname({{.mzname}})",
+ "filter": "type(SERVICE),mzname({{.mzname}}),tag(SLO:frontendservice)",
  "metricExpression": "(100)*(builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy())",
  "name": "{{.name}}",
  "target": 95,
