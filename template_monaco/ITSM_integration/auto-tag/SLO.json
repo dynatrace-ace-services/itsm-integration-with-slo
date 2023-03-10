@@ -1,0 +1,19 @@
+{
+ "description": "for SLO entitySelector definition",
+ "entitySelectorBasedRules": [
+  {
+   "enabled": true,
+   "entitySelector": "type(APPLICATION),entityName.in(prd-www-moet-com)",
+   "normalization": "LEAVE_TEXT_AS_IS",
+   "valueFormat": "application"
+  },
+  {
+   "enabled": true,
+   "entitySelector": "type(SERVICE),toRelationships.calls(type(APPLICATION),tag(SLO))",
+   "normalization": "LEAVE_TEXT_AS_IS",
+   "valueFormat": "frontendservice"
+  }
+ ],
+ "name": "{{.name}}",
+ "rules": []
+}

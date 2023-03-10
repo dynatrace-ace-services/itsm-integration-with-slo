@@ -5,11 +5,11 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(SERVICE),toRelationships.calls(type(APPLICATION),mzname({{.mzname}}))",
+ "filter": "type(SERVICE),tag(SLO:frontendservice ),mzname(maison - hennessy)",
  "metricExpression": "(100)*(builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy())",
  "name": "{{.name}}",
- "target": 98,
+ "target": 95,
  "timeframe": "-1w",
  "useRateMetric": true,
- "warning": 99
+ "warning": 98
 }

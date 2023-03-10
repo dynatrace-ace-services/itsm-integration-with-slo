@@ -5,7 +5,7 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(APPLICATION),mzname({{.mzname}})",
+ "filter": "type(APPLICATION),mzname({{.mzname}}),tag(SLO)",
  "metricExpression": "(100)*(builtin:apps.web.actionCount.category:filter(eq(\"Apdex category\",SATISFIED)):splitBy())/(builtin:apps.web.actionCount.category:splitBy())",
  "name": "{{.name}}",
  "target": 85,
