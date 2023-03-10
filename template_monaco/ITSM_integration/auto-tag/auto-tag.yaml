@@ -1,4 +1,6 @@
 config:
-- realtimealert: realtimealert.json
+- itsm: ITSM.json
+- slo: SLO.json
 realtimealert:
-- name: 'real_time_alert'
+- name: 'ITSM'
+- name: 'SLO'
