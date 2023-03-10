@@ -35,7 +35,8 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 
 ## 4) ITSM integration
 
-`deploy` Alerting Profile for ITSM integration + add tag SLO on frontendservice  
+`deploy` Alerting Profile for ITSM integration 
+=> create auto tag : `SLO` on frontendservice and `ITSM` on synthetic    
 
      ./monaco deploy -e=environments.yaml ITSM_integration
 
