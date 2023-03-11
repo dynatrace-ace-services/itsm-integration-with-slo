@@ -17,7 +17,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
  - Read SLO
  - Write SLO
  
-## 3)  Install monaco
+## 3) Monaco installation
  - Use [monaco](https://dynatrace-oss.github.io/dynatrace-monitoring-as-code/)
  
  `installation` (for linux x86)
