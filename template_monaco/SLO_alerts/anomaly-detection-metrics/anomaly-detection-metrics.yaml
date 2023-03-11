@@ -10,7 +10,7 @@ application-performance-fastburnalert:
 - samples: 15
 - dealerting: 15
 - violating: 1
-- enable: {{Env.application_performance_fastburnalert_enable}}
+- enable: {{.Env.application_performance_fastburnalert_enable}}
 application-performance-errorbudgetalert:
 - name: '[{{.Env.slo_prefix}}] - application - performance - error budget alert'
 - sloprefix: {{.Env.slo_prefix}}
