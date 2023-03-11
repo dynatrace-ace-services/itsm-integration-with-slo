@@ -67,20 +67,6 @@ This template will create :
 - slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_] (for example "mz_name") 
 - adjust the slo and metric events parameter (optionnal) 
 
-
-`env.sh` setup the variables:
-This template will create : 
-
-- SLO : `[slo_prefix] - application - performance` 
-- SLO : `[slo_prefix] - frontendservice - availability`
-- Metric Events : `[slo_prefix] - application - performance - fast burn alert` 
-- Metric Events : `[slo_prefix] - frontendservice - availability - fast burn alert`
-- Metric Events : `[slo_prefix] - application - performance - error budget alert` 
-- Metric Events : `[slo_prefix] - frontendservice - availability - error budget alert`
-
-- mz_name with the name of the namespace (for example "mz - name") 
-- slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_] (for example "mz_name") 
-- adjust the slo and metric events parameter (optionnal) 
  
       . env.sh
       ./monaco deploy -e=environments.yaml SLO_alerts
