@@ -77,6 +77,11 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 - alerting profile : `ITSM_integration_SLO_alerts_notification` for burn rate and error budget alerts 
 - alerting profile : `ITSM_integration_problems_notification` with delay for persistent problems
 
+# 7) Results
+
+Alert based on SLO ffast burn rate : 
+![image](https://user-images.githubusercontent.com/40337213/224493992-79f239e6-b6eb-462e-aa67-2bbbbd020cfa.png)
+
 
 ## SLO alert, default configurations:
 SLO
