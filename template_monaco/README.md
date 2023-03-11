@@ -31,7 +31,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
  - export **MyTenant**=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...)  
  - export **MyToken**=dt0c01.1234ABCD.XXXX
 
-`download` : backup the configurations before starting
+`download` : backup the json configurations before starting
      
      . env.sh
      ./monaco download -e=environments.yaml backup
