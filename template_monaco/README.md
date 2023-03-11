@@ -47,7 +47,7 @@ This template will create :
  - auto tag : `ITSM` on synthetic  
  - auto tag : `SLO` on frontendservice used by the step 5)
  
-     ./monaco deploy -e=environments.yaml ITSM_integration
+       ./monaco deploy -e=environments.yaml ITSM_integration
 
 ## 5) SLO alert (for each application based on management zone)
 
