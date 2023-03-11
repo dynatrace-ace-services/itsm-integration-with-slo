@@ -11,7 +11,6 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 
 ## 2) Create an `APi-Token` with this scope :
 
- - Access problem and event feed, metrics, and topology
  - Read configuration 
  - Write configuration
  - Read SLO
