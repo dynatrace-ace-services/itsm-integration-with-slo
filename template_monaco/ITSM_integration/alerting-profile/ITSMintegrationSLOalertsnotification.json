@@ -28,15 +28,7 @@
  "mzId": null,
  "rules": [
   {
-   "delayInMinutes": 0,
-   "severityLevel": "AVAILABILITY",
-   "tagFilter": {
-    "includeMode": "NONE",
-    "tagFilters": []
-   }
-  },
-  {
-   "delayInMinutes": 5,
+   "delayInMinutes": "{{.realtime}}",
    "severityLevel": "CUSTOM_ALERT",
    "tagFilter": {
     "includeMode": "NONE",

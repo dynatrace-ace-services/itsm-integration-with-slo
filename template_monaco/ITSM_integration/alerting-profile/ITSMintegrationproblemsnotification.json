@@ -5,7 +5,7 @@
  "mzId": null,
  "rules": [
   {
-   "delayInMinutes": 60,
+   "delayInMinutes": "{{.delay}}",
    "severityLevel": "PERFORMANCE",
    "tagFilter": {
     "includeMode": "NONE",
@@ -13,7 +13,7 @@
    }
   },
   {
-   "delayInMinutes": 60,
+   "delayInMinutes": "{{.delay}}",
    "severityLevel": "RESOURCE_CONTENTION",
    "tagFilter": {
     "includeMode": "NONE",
@@ -21,7 +21,7 @@
    }
   },
   {
-   "delayInMinutes": 60,
+   "delayInMinutes": "{{.delay}}",
    "severityLevel": "MONITORING_UNAVAILABLE",
    "tagFilter": {
     "includeMode": "NONE",
@@ -29,7 +29,7 @@
    }
   },
   {
-   "delayInMinutes": 60,
+   "delayInMinutes": "{{.delay}}",
    "severityLevel": "ERROR",
    "tagFilter": {
     "includeMode": "NONE",
@@ -37,7 +37,7 @@
    }
   },
   {
-   "delayInMinutes": 60,
+   "delayInMinutes": "{{.delay}}",
    "severityLevel": "CUSTOM_ALERT",
    "tagFilter": {
     "includeMode": "NONE",
@@ -45,7 +45,7 @@
    }
   },
   {
-   "delayInMinutes": 60,
+   "delayInMinutes": "{{.delay}}",
    "severityLevel": "AVAILABILITY",
    "tagFilter": {
     "includeMode": "NONE",
@@ -53,7 +53,7 @@
    }
   },
   {
-   "delayInMinutes": 0,
+   "delayInMinutes": "{{.realtime}}",
    "severityLevel": "AVAILABILITY",
    "tagFilter": {
     "includeMode": "INCLUDE_ALL",
