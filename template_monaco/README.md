@@ -63,7 +63,6 @@ This template will create :
 - Metric Events : `[slo_prefix] - frontendservice - availability - error budget alert`
 
 `deploy` SLO and Metric Events configuration => run for each MZ application centric   
-This template will create : 
 - SLO : `[slo_prefix] - application - performance` 
 - SLO : `[slo_prefix] - frontendservice - availability`
 - Metric Events : `[slo_prefix] - application - performance - fast burn alert` 
