@@ -22,7 +22,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
  `installation` (for linux x86)
  
     git clone https://github.com/dynatrace-ace-services/easy-itsm-integration
-    cd easy-itsm-integration/template_monaco
+    cd itsm-integration-with-slo/monaco-template
     curl -L https://github.com/dynatrace/dynatrace-configuration-as-code/releases/download/v1.8.9/monaco-linux-386 -o monaco
     chmod +x monaco
        
@@ -49,7 +49,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 `deploy` run only once by tenant
  
        . env.sh
-       ./monaco deploy -e=environments.yaml ITSM_integration
+       ./monaco deploy -e=environments.yaml ITSM-integration
 
 ## 5) SLO alert (for each application based on management zone)
 
@@ -69,7 +69,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 `deploy` run for each MZ application centric   
 
       . env.sh
-      ./monaco deploy -e=environments.yaml SLO_alerts
+      ./monaco deploy -e=environments.yaml SLO-alerts
        
 ## 6) Alert notification
 
