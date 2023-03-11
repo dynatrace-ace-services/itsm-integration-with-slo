@@ -27,7 +27,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     curl -L https://github.com/dynatrace/dynatrace-configuration-as-code/releases/download/v1.8.9/monaco-linux-386 -o monaco
     chmod +x monaco
        
-`variables` : open the env.sh file en setup the variables : 
+`variables` : open the env.sh file en setup the variables :  
  => export NEW_CLI=1  
  => export MyTenant=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...)  
  => export MyToken=dt0c01.1234ABCD.XXXX  
@@ -44,7 +44,7 @@ This template will create :
  - alerting profile : `ITSM_integration_SLO_alerts_notification` for burn rate and error budget alerts 
  - alerting profile : `ITSM_integration_problems_notification` with delay for persistent problems
  - auto tag : `ITSM` on synthetic  
- - auto tag : `SLO` on frontendservice used by the step 5)
+ - auto tag : `SLO` on frontendservice used by the step 5)  
  en.sh : adjust the delay of alerting profile (optionnal)
  
        . env.sh
@@ -52,7 +52,7 @@ This template will create :
 
 ## 5) SLO alert (for each application based on management zone)
 
-`deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric 
+`deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric   
 This template will create : 
 - SLO : `[slo_prefix] - application - performance` 
 - SLO : `[slo_prefix] - frontendservice - availability`
@@ -60,8 +60,8 @@ This template will create :
 - Metric Events : `[slo_prefix] - frontendservice - availability - fast burn alert`
 - Metric Events : `[slo_prefix] - application - performance - error budget alert` 
 - Metric Events : `[slo_prefix] - frontendservice - availability - error budget alert`
-env.sh : adjust the slo and metric events parameter (optionnal)  
-env.sh : configure the mz_name and slo_prefix for each application based on management zone:  
+env.sh : adjust the slo and metric events parameter (optionnal)   
+env.sh : configure the mz_name and slo_prefix for each application based on management zone:   
  => export slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_]
  
     . env.sh
