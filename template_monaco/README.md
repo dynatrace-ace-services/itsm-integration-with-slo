@@ -39,7 +39,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 
 ## 4) ITSM integration (only once)
 
-`deploy` Alerting Profile and Auto Tag for ITSM integration - run only once.
+`deploy` Alerting Profile and Auto Tag for ITSM integration => run only once.  
 This template will create : 
  - alerting profile : `ITSM_integration_SLO_alerts_notification` for burn rate and error budget alerts 
  - alerting profile : `ITSM_integration_problems_notification` with delay for persistent problems
@@ -52,7 +52,7 @@ This template will create :
 
 ## 5) SLO alert (for each application based on management zone)
 
-`deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric   
+`deploy` SLO and Metric Events configuration => run for each MZ application centric   
 This template will create : 
 - SLO : `[slo_prefix] - application - performance` 
 - SLO : `[slo_prefix] - frontendservice - availability`
