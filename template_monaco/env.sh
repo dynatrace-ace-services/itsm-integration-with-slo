@@ -21,4 +21,5 @@ export application_performance_errorbudgetalert_enable="false"  #validate the ap
 export frontendservice_availability_fastburnalert_enable="true"
 export frontendservice_availability_errorbudgetalert_enable="true"
 #alerting profile
-export delay_for_persitent_problems=60 #minutes
+export delay_for_real_time_alert=0 #minutes
+export delay_for_persitent_problem=60 #minutes
