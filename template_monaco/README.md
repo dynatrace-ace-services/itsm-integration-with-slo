@@ -63,9 +63,9 @@ This template will create :
 - Metric Events : `[slo_prefix] - frontendservice - availability - error budget alert`
 
 `env.sh` : setup the variables : 
-- adjust the slo and metric events parameter (optionnal)   
-- configure the mz_name and slo_prefix for each application based on management zone:   
- => export slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_]
+- mz_name with the name of the namespace (for example "mz - name")
+- slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_] (for example "mz_name")
+- adjust the slo and metric events parameter (optionnal)
  
     . env.sh
     ./monaco deploy -e=environments.yaml SLO_alerts
