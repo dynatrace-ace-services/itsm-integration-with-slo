@@ -40,16 +40,14 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 
 ## 4) ITSM integration (only once)
 
-`deploy` Alerting Profile for ITSM integration 
+`deploy` Alerting Profile and Auto Tag for ITSM integration - run only once.
 This template will create : 
- - auto tag : `SLO` on frontendservice  
+ - alerting profile : `ITSM_integration_SLO_alerts_notification` for burn rate and error budget alerts 
+ - alerting profile : `ITSM_integration_problems_notification` with delay for persistent problems
  - auto tag : `ITSM` on synthetic  
- - alerting profile : 
+ - auto tag : `SLO` on frontendservice used by the step 5)
  
-
      ./monaco deploy -e=environments.yaml ITSM_integration
-
-Use this Alerting Profile in your Service Desk `notification` rule. 
 
 ## 5) SLO alert (for each application based on management zone)
 
@@ -60,7 +58,11 @@ Use this Alerting Profile in your Service Desk `notification` rule.
     
     ./monaco deploy -e=environments.yaml SLO_alerts
        
+## 6) Alert notification
 
+Create 2 `alert notifications` to send Dynatrace Problems to your Service Desk tool based on these `alerting profiles` : 
+- alerting profile : `ITSM_integration_SLO_alerts_notification` for burn rate and error budget alerts 
+- alerting profile : `ITSM_integration_problems_notification` with delay for persistent problems
 
 
 ## SLO alert, default configurations:
