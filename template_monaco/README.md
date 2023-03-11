@@ -27,23 +27,31 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     curl -L https://github.com/dynatrace/dynatrace-configuration-as-code/releases/download/v1.8.9/monaco-linux-386 -o monaco
     chmod +x monaco
        
-`varaiables`
-
+`variables` : open the env.sh file en setup the variables : 
+ 
     export NEW_CLI=1
     export MyTenant=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...) or 
     export MyToken=dt0c01.1234ABCD.XXXX
 
-## 4) ITSM integration
+`backup` : backup json configuration before starting
+     
+     . env.sh
+     ./monaco download -e=environments.yaml backup
+
+## 4) ITSM integration (only once)
 
 `deploy` Alerting Profile for ITSM integration 
-=> create auto tag : `SLO` on frontendservice and `ITSM` on synthetic    
+This template will create : 
+ - auto tag : `SLO` on frontendservice  
+ - auto tag : `ITSM` on synthetic  
+ - alerting profile : 
+ 
 
      ./monaco deploy -e=environments.yaml ITSM_integration
 
-
 Use this Alerting Profile in your Service Desk `notification` rule. 
 
-## 5) SLO alert 
+## 5) SLO alert (for each application based on management zone)
 
 `deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric   
 
