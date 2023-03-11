@@ -1,27 +1,26 @@
 {
  "alertCondition": "ABOVE",
- "dealertingSamples": 15,
+ "dealertingSamples": "{{.dealerting}}",
  "description": "The SLO \"[{{.sloprefix}}] - application - performance\" is at risk. The burn-rate exceeded {threshold}.\n",
  "disabledReason": "NONE",
- "enabled": true,
- "eventType": "AVAILABILITY",
+ "enabled": "{{.enable}},
+ "eventType": "CUSTOM_ALERT",
  "metricSelector": "func:slo.errorBudgetBurnRate._{{.sloprefix}}____application___performance",
  "monitoringStrategy": {
   "alertCondition": "ABOVE",
   "alertingOnMissingData": false,
-  "dealertingSamples": 15,
-  "samples": 15,
-  "threshold": 10,
+  "dealertingSamples": "{{.dealerting}}",
+  "samples": "{{.samples}}",
+  "threshold": "{{.threshold}}",
   "type": "STATIC_THRESHOLD",
   "unit": "UNSPECIFIED",
-  "violatingSamples": 1
+  "violatingSamples": "{{.violating}}"
  },
  "name": "{{.name}}",
- "primaryDimensionKey": "dt.entity.service",
- "samples": 15,
+ "samples": "{{.samples}}",
  "severity": "CUSTOM_ALERT",
- "threshold": 10,
+ "threshold": "{{.threshold}}",
  "unit": "UNSPECIFIED",
- "violatingSamples": 1,
+ "violatingSamples": "{{.violating}}",
  "warningReason": "NONE"
 }
