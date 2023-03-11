@@ -27,7 +27,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     curl -L https://github.com/dynatrace/dynatrace-configuration-as-code/releases/download/v1.8.9/monaco-linux-386 -o monaco
     chmod +x monaco
        
-`env.sh` : open the env.sh file and setup the variables :  
+`env.sh` : open the `easy-itsm-integration/template_monaco/env.sh` file and setup the variables :  
  => export NEW_CLI=1  
  => export MyTenant=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...)  
  => export MyToken=dt0c01.1234ABCD.XXXX  
