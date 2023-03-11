@@ -63,8 +63,8 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 - Metric Events : `[slo_prefix] - frontendservice - availability - error budget alert`
 
 `env.sh` setup the variables   
-- export "mz_name" with the name of the namespace (for example "mz - name") 
-- export "slo_prefix" =<mzName without space and special character or - or  space, only [AZaz09_] (for example "mz_name") 
+- export **mz_name** = Management Zone name (for example "mz - name") 
+- export **slo_prefix** =<MZ Name without space and special character or - or  space, only [AZaz09_] (for example "mz_name") 
 - adjust the slo and metric events parameters (optionnal) 
 
 `deploy` run for each MZ application centric   
