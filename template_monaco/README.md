@@ -46,12 +46,19 @@ This template will create :
  - alerting profile : `ITSM_integration_problems_notification` with delay for persistent problems
  - auto tag : `ITSM` on synthetic  
  - auto tag : `SLO` on frontendservice used by the step 5)
+ en.sh : adjust the delay of alerting profile 
  
+       . env.sh
        ./monaco deploy -e=environments.yaml ITSM_integration
 
 ## 5) SLO alert (for each application based on management zone)
 
-`deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric   
+`deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric 
+This template will create : 
+-  2 SLO : `[slo_prefix] - application - performance` and `[slo_prefix] - frontendservice - availability`
+-  2 Metric Events for fast burn alert : `[slo_prefix] - application - performance - fast burn alert` and `[slo_prefix] - frontendservice - availability - fast burn alert`
+-  2 Metric Events for error budget alert : `[slo_prefix] - application - performance - error budget alert` and `[slo_prefix] - frontendservice - availability - error budget alert`
+
 
     export mz_name=<mzName exists in the tenant>
     export slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_]>
