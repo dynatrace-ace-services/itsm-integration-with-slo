@@ -39,22 +39,23 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 
 ## 4) ITSM integration (only once)
 
-`deploy` Alerting Profile and Auto Tag for ITSM integration => run only once.  
-This template will create : 
+`json` this template will create : 
  - alerting profile : `ITSM_integration_SLO_alerts_notification` for burn rate and error budget alerts 
  - alerting profile : `ITSM_integration_problems_notification` with delay for persistent problems
  - auto tag : `ITSM` on synthetic  
  - auto tag : `SLO` on frontendservice used by the step 5)  
 
-`en.sh` adjust the delay of alerting profile (optionnal)  
+`env.sh` setup the variables   
+- adjust the delay of alerting profile (optionnal)  
+
+`deploy` run only once by tenant
  
        . env.sh
        ./monaco deploy -e=environments.yaml ITSM_integration
 
 ## 5) SLO alert (for each application based on management zone)
 
-`deploy` SLO and Metric Events configuration => run for each MZ application centric   
-This template will create : 
+`json` this template will create :  
 - SLO : `[slo_prefix] - application - performance` 
 - SLO : `[slo_prefix] - frontendservice - availability`
 - Metric Events : `[slo_prefix] - application - performance - fast burn alert` 
@@ -67,14 +68,7 @@ This template will create :
 - slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_] (for example "mz_name") 
 - adjust the slo and metric events parameter (optionnal) 
 
-`deploy` SLO and Metric Events configuration => run for each MZ application centric   
-This template will create : 
-- SLO : `[slo_prefix] - application - performance` 
-- SLO : `[slo_prefix] - frontendservice - availability`
-- Metric Events : `[slo_prefix] - application - performance - fast burn alert` 
-- Metric Events : `[slo_prefix] - frontendservice - availability - fast burn alert`
-- Metric Events : `[slo_prefix] - application - performance - error budget alert` 
-- Metric Events : `[slo_prefix] - frontendservice - availability - error budget alert`
+`deploy` run for each MZ application centric   
 
       . env.sh
       ./monaco deploy -e=environments.yaml SLO_alerts
