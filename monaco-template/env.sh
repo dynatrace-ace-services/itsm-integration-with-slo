@@ -1,8 +1,8 @@
 #!/bin/bash
 #Env file
   export NEW_CLI=1 #for monaco 1.0 - don't modify
-  export MyTenant="xxx.live.dynatrace.com" #Msaas=> xxx.live.dynatrace.co, Managed=> domain.managed.com/e/tenantid - without https://
-  export MyToken="yyy" #scope : Read_configuration, Write_configuration, Read_SLO, Write_SLO, Access problem and event feed...
+  export MyTenant="xxx.live.dynatrace.com"      #Saas=> xxx.live.dynatrace.co, Managed=> domain.managed.com/e/tenantid - without https://
+  export MyToken="yyy"                          #scope : Read_configuration, Write_configuration, Read_SLO & Write_SLO
 
 #need to be modify for each slo
   export mz_name="Mz - name"
