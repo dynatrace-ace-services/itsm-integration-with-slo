@@ -1,5 +1,5 @@
 #Env file
-export NEW_CLI=1 #don't modify
+export NEW_CLI=1 #for monaco 1.0 - don't modify
 export MyTenant="xxx.dynatrace.com" #MyTenant=domain.managed.com/e/tenantid - without https://
 export MyToken="yyy"
 #need to be modify for each slo
