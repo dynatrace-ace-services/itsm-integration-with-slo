@@ -21,7 +21,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
  
  `installation` (for linux x86)
  
-    git clone https://github.com/dynatrace-ace-services/easy-itsm-integration
+    git clone https://github.com/dynatrace-ace-services/itsm-integration-with-slo
     cd itsm-integration-with-slo/monaco-template
     curl -L https://github.com/dynatrace/dynatrace-configuration-as-code/releases/download/v1.8.9/monaco-linux-386 -o monaco
     chmod +x monaco
