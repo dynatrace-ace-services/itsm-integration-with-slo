@@ -66,7 +66,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 `env.sh` setup the variables   
 - mz_name with the name of the namespace (for example "mz - name") 
 - slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_] (for example "mz_name") 
-- adjust the slo and metric events parameter (optionnal) 
+- adjust the slo and metric events parameters (optionnal) 
 
 `deploy` run for each MZ application centric   
 
