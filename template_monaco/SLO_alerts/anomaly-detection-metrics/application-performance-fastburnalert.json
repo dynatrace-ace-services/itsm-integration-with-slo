@@ -3,7 +3,7 @@
  "dealertingSamples": "{{.dealerting}}",
  "description": "The SLO \"[{{.sloprefix}}] - application - performance\" is at risk. The burn-rate exceeded {threshold}.\n",
  "disabledReason": "NONE",
- "enabled": "{{.enable}},
+ "enabled": "{{.enable}}",
  "eventType": "CUSTOM_ALERT",
  "metricSelector": "func:slo.errorBudgetBurnRate._{{.sloprefix}}____application___performance",
  "monitoringStrategy": {
