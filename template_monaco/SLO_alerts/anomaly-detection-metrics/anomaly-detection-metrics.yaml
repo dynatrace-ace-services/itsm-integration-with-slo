@@ -18,7 +18,7 @@ application-performance-errorbudgetalert:
 - samples: 60
 - dealerting: 15
 - violating: 10
-- enable: {{Env.application_performance_errorbudgetalert_enable}}
+- enable: {{.Env.application_performance_errorbudgetalert_enable}}
 frontendservice-availability-fastburnalert:
 - name: '[{{.Env.slo_prefix}}] - frontendservice - availability - fast burn alert'
 - sloprefix: {{.Env.slo_prefix}}
@@ -26,7 +26,7 @@ frontendservice-availability-fastburnalert:
 - samples: 15
 - dealerting: 15
 - violating: 1
-- enable: {{Env.frontendservice_availability_fastburnalert_enable}}
+- enable: {{.Env.frontendservice_availability_fastburnalert_enable}}
 frontendservice-availability-errorbudgetalert:
 - name: '[{{.Env.slo_prefix}}] - frontendservice - availability - error budget alert'
 - sloprefix: {{.Env.slo_prefix}}
@@ -34,4 +34,4 @@ frontendservice-availability-errorbudgetalert:
 - samples: 60
 - dealerting: 15
 - violating: 10
-- enable: {{Env.frontendservice_availability_errorbudgetalert_enable}}
+- enable: {{.Env.frontendservice_availability_errorbudgetalert_enable}}
