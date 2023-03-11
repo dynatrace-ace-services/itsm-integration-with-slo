@@ -17,6 +17,6 @@ export frontendservice_availability_burnrate=10
 export frontendservice_availability_period="-1w"
 #default metric events
 export application_performance_fastburnalert_enable="true"
-export application_performance_errorbudgetalert_enable="false"
+export application_performance_errorbudgetalert_enable="false"  #validate the apdex > 0.9 before enabling this alert
 export frontendservice_availability_fastburnalert_enable="true"
 export frontendservice_availability_errorbudgetalert_enable="true"
