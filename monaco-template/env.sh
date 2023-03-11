@@ -35,6 +35,6 @@
 
 #Variables validation
 echo MyTenant='https://'$MyTenant
-echo MyToken=${MyToken:0:10}'...'
+echo MyToken=${MyToken:0:20}'...'
 echo mz_name=$mz_name
 echo slo_prefix=$slo_prefix
