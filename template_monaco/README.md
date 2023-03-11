@@ -61,8 +61,10 @@ This template will create :
 - Metric Events : `[slo_prefix] - frontendservice - availability - fast burn alert`
 - Metric Events : `[slo_prefix] - application - performance - error budget alert` 
 - Metric Events : `[slo_prefix] - frontendservice - availability - error budget alert`
+
 `env.sh` setup the variables:
 This template will create : 
+
 - SLO : `[slo_prefix] - application - performance` 
 - SLO : `[slo_prefix] - frontendservice - availability`
 - Metric Events : `[slo_prefix] - application - performance - fast burn alert` 
