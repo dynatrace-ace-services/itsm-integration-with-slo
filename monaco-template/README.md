@@ -79,8 +79,11 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 
 # 7) Results
 
-Alert based on SLO ffast burn rate : 
+Alert based on SLO fast burn rate : 
 ![image](https://user-images.githubusercontent.com/40337213/224493992-79f239e6-b6eb-462e-aa67-2bbbbd020cfa.png)
+
+Alert based on SLO error budget warning : 
+![image](https://user-images.githubusercontent.com/40337213/224494702-dc496bac-13b8-41c3-ac4f-585906aef9f3.png)
 
 
 ## SLO alert, default configurations:
