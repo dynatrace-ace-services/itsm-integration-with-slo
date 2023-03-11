@@ -1,7 +1,7 @@
 #Env file
 export NEW_CLI=1 #for monaco 1.0 - don't modify
-export MyTenant="xxx.dynatrace.com" #MyTenant=domain.managed.com/e/tenantid - without https://
-export MyToken="yyy"
+export MyTenant="xxx.live.dynatrace.com" #Msaas=> xxx.live.dynatrace.co, Managed=> domain.managed.com/e/tenantid - without https://
+export MyToken="yyy" #
 #need to be modify for each slo
 export mz_name="my application - prod"
 export slo_prefix="my_appli" #no space, no "-", no special character, only "az09_"
