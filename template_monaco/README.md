@@ -91,7 +91,7 @@ Details
 
 ![image](https://user-images.githubusercontent.com/40337213/224392526-ea7277cd-5cd3-415b-a0d8-1fee4cf34b80.png)
 
-![image](https://user-images.githubusercontent.com/40337213/221256258-1a0f26a2-27b1-488c-8cfc-02b82c4a4417.png)
+![image](https://user-images.githubusercontent.com/40337213/224486018-381b8030-736f-43b6-9785-173389fec9a1.png)
 
 ## ITSM integration, default configurations:
 
