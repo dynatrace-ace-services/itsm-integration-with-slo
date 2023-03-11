@@ -82,7 +82,7 @@ Details
 
 ## ITSM integration, default configurations:
 
-![image](https://user-images.githubusercontent.com/40337213/224395171-a91776ac-4030-4ebc-bbba-419fdfbac8ee.png)
+![image](https://user-images.githubusercontent.com/40337213/224477342-f4861845-0c5b-4e37-804e-1e6910fca2ef.png)
 
 Use these `alerting profile`in the problem `notifiocation` configuration of your ITSM integration.
 
