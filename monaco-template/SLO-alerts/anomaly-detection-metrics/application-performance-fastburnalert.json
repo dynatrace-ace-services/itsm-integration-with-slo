@@ -17,6 +17,7 @@
   "violatingSamples": "{{.violating}}"
  },
  "name": "{{.name}}",
+ "primaryDimensionKey": "dt.entity.application",
  "samples": "{{.samples}}",
  "severity": "CUSTOM_ALERT",
  "threshold": "{{.threshold}}",
