@@ -1,0 +1,26 @@
+{
+ "alertCondition": "BELOW",
+ "dealertingSamples": "{{.dealerting}}",
+ "description": "SLO error budget : \"[{{.sloprefix}}] - frontendservice - availability\" is below the warning limit of {threshold}.\n",
+ "disabledReason": "NONE",
+ "enabled": "{{.enable}}",
+ "eventType": "CUSTOM_ALERT",
+ "metricSelector": "func:slo._{{.sloprefix}}____frontendservice___availability",
+ "monitoringStrategy": {
+  "alertCondition": "BELOW",
+  "alertingOnMissingData": false,
+  "dealertingSamples": "{{.dealerting}}",
+  "samples": "{{.samples}}",
+  "threshold": "{{.threshold}}",
+  "type": "STATIC_THRESHOLD",
+  "unit": "UNSPECIFIED",
+  "violatingSamples": "{{.violating}}"
+ },
+ "name": "{{.name}}",
+ "samples": "{{.samples}}",
+ "severity": "CUSTOM_ALERT",
+ "threshold": "{{.threshold}}",
+ "unit": "UNSPECIFIED",
+ "violatingSamples": "{{.violating}}",
+ "warningReason": "NONE"
+}
