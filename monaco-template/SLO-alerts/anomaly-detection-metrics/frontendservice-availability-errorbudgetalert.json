@@ -1,7 +1,7 @@
 {
  "alertCondition": "BELOW",
  "dealertingSamples": "{{.dealerting}}",
- "description": "SLO error budget : \"[{{.sloprefix}}] - frontendservice - availability\" is below the warning limit of {threshold}.\n",
+ "description": "SLO error budget : \"[{{.sloprefix}}] - frontendservice - availability\" is below the warning limit of {threshold}.\n{{.slolink}}",
  "disabledReason": "NONE",
  "enabled": "{{.enable}}",
  "eventType": "CUSTOM_ALERT",
