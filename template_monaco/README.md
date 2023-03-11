@@ -28,10 +28,9 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     chmod +x monaco
        
 `variables` : open the env.sh file en setup the variables : 
- 
-    export NEW_CLI=1
-    export MyTenant=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...) or 
-    export MyToken=dt0c01.1234ABCD.XXXX
+ => export NEW_CLI=1  
+ => export MyTenant=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...)  
+ => export MyToken=dt0c01.1234ABCD.XXXX  
 
 `backup` : backup json configuration before starting
      
@@ -46,7 +45,7 @@ This template will create :
  - alerting profile : `ITSM_integration_problems_notification` with delay for persistent problems
  - auto tag : `ITSM` on synthetic  
  - auto tag : `SLO` on frontendservice used by the step 5)
- en.sh : adjust the delay of alerting profile 
+ en.sh : adjust the delay of alerting profile (optionnal)
  
        . env.sh
        ./monaco deploy -e=environments.yaml ITSM_integration
@@ -55,14 +54,17 @@ This template will create :
 
 `deploy` SLO Fast Burn alert and SLO erro budget warning alert for each MZ application centric 
 This template will create : 
--  2 SLO : `[slo_prefix] - application - performance` and `[slo_prefix] - frontendservice - availability`
--  2 Metric Events for fast burn alert : `[slo_prefix] - application - performance - fast burn alert` and `[slo_prefix] - frontendservice - availability - fast burn alert`
--  2 Metric Events for error budget alert : `[slo_prefix] - application - performance - error budget alert` and `[slo_prefix] - frontendservice - availability - error budget alert`
-
-
-    export mz_name=<mzName exists in the tenant>
-    export slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_]>
-    
+- SLO : `[slo_prefix] - application - performance` 
+- SLO : `[slo_prefix] - frontendservice - availability`
+- Metric Events : `[slo_prefix] - application - performance - fast burn alert` 
+- Metric Events : `[slo_prefix] - frontendservice - availability - fast burn alert`
+- Metric Events : `[slo_prefix] - application - performance - error budget alert` 
+- Metric Events : `[slo_prefix] - frontendservice - availability - error budget alert`
+env.sh : adjust the slo and metric events parameter (optionnal)  
+env.sh : configure the mz_name and slo_prefix for each application based on management zone:  
+ => export slo_prefix=<mzName without space and special character or - or  space, only [AZaz09_]
+ 
+    . env.sh
     ./monaco deploy -e=environments.yaml SLO_alerts
        
 ## 6) Alert notification
