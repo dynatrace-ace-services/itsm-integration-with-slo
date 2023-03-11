@@ -28,8 +28,8 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     chmod +x monaco
        
 `env.sh` : open the `easy-itsm-integration/template_monaco/env.sh` file and setup the variables :  
- - export **MyTenant**=abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...)  
- - export **MyToken**=dt0c01.1234ABCD.XXXX
+ - export `MyTenant` = abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...)  
+ - export `MyToken` = dt0c01.1234ABCD.XXXX with the scope described above  
 
 `download` : backup the json configurations before starting
      
@@ -63,8 +63,8 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 - Metric Events : `[slo_prefix] - frontendservice - availability - error budget alert`
 
 `env.sh` setup the variables   
-- export **mz_name** = Management Zone name (for example "mz - name") 
-- export **slo_prefix** =<MZ Name without space and special character or - or  space, only [AZaz09_] (for example "mz_name") 
+- export `mz_name` = Management Zone name (for example "mz - name") 
+- export `slo_prefix` = <MZ Name without space and special character or - or  space, only [AZaz09_] (for example "mz_name") 
 - adjust the slo and metric events parameters (optionnal) 
 
 `deploy` run for each MZ application centric   
