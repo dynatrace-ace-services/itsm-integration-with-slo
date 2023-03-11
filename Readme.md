@@ -19,7 +19,7 @@ Goal : be alerting immediatly on application and/or frontend services if there i
       - Warning for Slow Burn Rate or Error Budget  
 
 
-Monaco template for slo and itsm intgeration [here](https://github.com/dynatrace-ace-services/easy-itsm-integration/tree/main/template_monaco) 
+Monaco template for slo and itsm intgeration [here](https://github.com/dynatrace-ace-services/itsm-integration-with-slo/tree/main/monaco-template) 
 
 ## ITSM Integration : Persistent problems
 
@@ -55,7 +55,7 @@ Targeted or Consolidated ?
 
 # Next :
 
-[template_monaco](/template_monaco)
+[monaco-template](/monaco-template)
 
 
 
