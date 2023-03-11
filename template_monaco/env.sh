@@ -6,9 +6,9 @@
 
 #need to be modify for each slo
   export mz_name="Mz - name"
-  #automatic slo_prefix naming
+  #automatic slo_prefix naming -> 
   export slo_prefix=`echo $mz_name|tr '[:upper:]' '[:lower:]'|sed 'y/àçéèëêïîöôùüûÀÇÉÈËÊÏÎÖÔÙÜÛ/aceeeeiioouuuACEEEEIIOOUUU/'|sed -r 's/[^a-z0-9_]/_/g' | sed -r 's/__*/_/g'`
-  #manual slo prefix naming -> uncomment the line below
+  #manual slo_prefix naming -> uncomment the line below
   #export slo_prefix="my_appli" #no space, no "-", no special character, only "az09_"
 
 #default application-performance configuration
