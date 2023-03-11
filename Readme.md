@@ -11,7 +11,6 @@ Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/
 Goal : be alerting immediatly on application and/or frontend services if there is a risk to miss the SLO.
 
 - Create SLO for main application or main frontend services (but not for all)  
-      - Define only 1 threshold : the SLO target for full Observability of your application.  
 - Add SLO alert on fast burn rate
 - Add SLO alert on error budget warning
 - Create Alerting Profile on SLO alert
