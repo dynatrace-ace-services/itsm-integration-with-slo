@@ -60,7 +60,7 @@ This template will create :
        
 ## 6) Alert notification
 
-Create 2 `alert notifications` to send Dynatrace Problems to your Service Desk tool based on these `alerting profiles` : 
+`configure` 2 alert notifications to send Dynatrace Problems to your Service Desk tool based on these alerting profiles : 
 - alerting profile : `ITSM_integration_SLO_alerts_notification` for burn rate and error budget alerts 
 - alerting profile : `ITSM_integration_problems_notification` with delay for persistent problems
 
