@@ -40,7 +40,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 `json` this template will create : 
  - alerting profile : `ITSM_integration_SLO_alerts_notification` for burn rate and error budget alerts 
  - alerting profile : `ITSM_integration_problems_notification` with delay for persistent problems
- - auto tag : `ITSM` on synthetic  
+ - auto tag : `ITSM` for real time alert  
  - auto tag : `SLO` on frontendservice used by the step 5)  
 
 `env.sh` setup the variables   
@@ -81,10 +81,6 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 
 Alert based on SLO fast burn rate : 
 ![image](https://user-images.githubusercontent.com/40337213/224493992-79f239e6-b6eb-462e-aa67-2bbbbd020cfa.png)
-
-Alert based on SLO error budget warning : 
-![image](https://user-images.githubusercontent.com/40337213/224730355-b94ea6cc-5bbb-492d-8ebb-a6e2e2051ba5.png)
-
 
 ## SLO alert, default configurations:
 SLO
