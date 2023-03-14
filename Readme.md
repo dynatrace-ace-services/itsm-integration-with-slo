@@ -16,7 +16,6 @@ Goal : be alerting immediatly on application and/or frontend services if there i
 - Create Alerting Profile on SLO alert
 - Add ITSM notification without delay     
       - Critical for Fast Burn Rate  
-      - Warning for Slow Burn Rate or Error Budget  
 
 
 Monaco template for slo and itsm intgeration [here](https://github.com/dynatrace-ace-services/itsm-integration-with-slo/tree/main/monaco-template) 
@@ -25,7 +24,7 @@ Monaco template for slo and itsm intgeration [here](https://github.com/dynatrace
 
 Goal : be alerting if the problem is persistant and not fix after X minutes. 
 
-- Create a alerting profile with X min delay (between 15 min to 1 h)
+- Create a alerting profile with X min delay (for example > 1 h)
 - To define the best delay of X min for your production context, you can use the Anton's script.
 - Add ITSM Integration based on this alerting profile. 
 
@@ -42,8 +41,8 @@ You can do that easily with monaco template (example for [French banck hollidays
 ## Feedback loop : SLO Quality of Service
 Targeted or Consolidated ? 
 
-- Targeted SLO = Specific SLO for main application or frontend service (as described above)  
-- Consolidated SLO = filtered by MZ. You can use the Simply Smarter with the SLO smarters which have been configured globaly by  tenant and can be filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
+- SLO for real time alert =>  Specific SLO for main application or frontend service (as described above)  
+- SLO filtered by MZ => You can use the Simply Smarter with the SLO smarters which have been configured globaly by  tenant and can be filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
 ![image](https://user-images.githubusercontent.com/40337213/224925027-3b6429c9-5479-4dc6-b0d9-15cd82cc048d.png)
 
