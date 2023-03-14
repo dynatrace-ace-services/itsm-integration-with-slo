@@ -12,10 +12,8 @@ Goal : be alerting immediatly on application and/or frontend services if there i
 
 - Create SLO for main application or main frontend services (but not for all)  
 - Add SLO alert on fast burn rate
-- Add SLO alert on error budget warning
 - Create Alerting Profile on SLO alert
-- Add ITSM notification without delay     
-      - Critical for Fast Burn Rate  
+- Add ITSM notification without delay 
 
 
 Monaco template for slo and itsm intgeration [here](https://github.com/dynatrace-ace-services/itsm-integration-with-slo/tree/main/monaco-template) 
@@ -24,8 +22,7 @@ Monaco template for slo and itsm intgeration [here](https://github.com/dynatrace
 
 Goal : be alerting if the problem is persistant and not fix after X minutes. 
 
-- Create a alerting profile with X min delay (for example > 1 h)
-- To define the best delay of X min for your production context, you can use the Anton's script.
+- Create an alerting profile with X min delay (for example > 60 min)
 - Add ITSM Integration based on this alerting profile. 
 
 ## Best practices 
@@ -36,12 +33,11 @@ You can do that easily with monaco template (example for [French banck hollidays
 
 - Don't modify the thresholds (expecpt may be Disk threshold and specific needs in particular cases), but leave Davis to deal with his baseline  
 
-- Create the SLO to take advantage of the real time Burn Rate alerte. 
+- Create the SLO to take advantage of the real time Burn Rate alerts. 
 
 ## Feedback loop : SLO Quality of Service
-Targeted or Consolidated ? 
 
-- SLO for real time alert =>  Specific SLO for main application or frontend service (as described above)  
+- SLO for real time alert =>  Specific SLO for main application or frontend service (as described above)  click [here](https://github.com/dynatrace-ace-services/itsm-integration-with-slo/tree/main/monaco-template) 
 - SLO filtered by MZ => You can use the Simply Smarter with the SLO smarters which have been configured globaly by  tenant and can be filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
 ![image](https://user-images.githubusercontent.com/40337213/224925027-3b6429c9-5479-4dc6-b0d9-15cd82cc048d.png)
