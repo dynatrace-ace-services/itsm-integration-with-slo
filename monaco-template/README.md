@@ -87,8 +87,8 @@ SLO
 ![image](https://user-images.githubusercontent.com/40337213/221262130-2d2f0f7e-b650-4b63-8178-72566598b0ff.png)
 
 Metric events
-![image](https://user-images.githubusercontent.com/40337213/221261839-49969b7e-bcd2-4761-bb1d-aeb4a03533cb.png)
-
+![image](https://user-images.githubusercontent.com/40337213/224929152-33a36f94-cbdc-4747-98e7-d842da7aa280.png)
+ 
 
 Details
 ![image](https://user-images.githubusercontent.com/40337213/221256100-a8e2bfe1-cf34-4b83-b0b2-5da6eac7cfc6.png)
