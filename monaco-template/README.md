@@ -91,15 +91,16 @@ Metric events
  
 
 Details
-![image](https://user-images.githubusercontent.com/40337213/221256100-a8e2bfe1-cf34-4b83-b0b2-5da6eac7cfc6.png)
+![image](https://user-images.githubusercontent.com/40337213/224930547-a64c2bdc-7e04-4b1d-b092-cb390bc47a9a.png)
 
-![image](https://user-images.githubusercontent.com/40337213/224392526-ea7277cd-5cd3-415b-a0d8-1fee4cf34b80.png)
+![image](https://user-images.githubusercontent.com/40337213/224930849-5a41d8ef-ca82-4a24-bcc4-7a3ce49b4a96.png)
 
-![image](https://user-images.githubusercontent.com/40337213/224486126-685cbcd1-4bcc-45c7-b8ae-6b9cafac4e6c.png)
+![image](https://user-images.githubusercontent.com/40337213/224931317-be620bf8-668d-4692-a98e-b16b6ff08f1b.png)
+
 
 ## ITSM integration, default configurations:
 
-![image](https://user-images.githubusercontent.com/40337213/224477342-f4861845-0c5b-4e37-804e-1e6910fca2ef.png)
+![image](https://user-images.githubusercontent.com/40337213/224931491-73e567a4-fab8-404b-89d5-280d64712f12.png)
 
 Use these `alerting profile`in the problem `notifiocation` configuration of your ITSM integration.
 
