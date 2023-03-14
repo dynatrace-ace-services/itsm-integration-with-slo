@@ -45,7 +45,7 @@ Targeted or Consolidated ?
 - Targeted SLO = Specific SLO for main application or frontend service (as described above)  
 - Consolidated SLO = filtered by MZ. You can use the Simply Smarter with the SLO smarters which have been configured globaly by  tenant and can be filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
-![image](https://user-images.githubusercontent.com/40337213/221263913-2babc522-303f-4aa7-8cb4-90843c432769.png)
+![image](https://user-images.githubusercontent.com/40337213/224925027-3b6429c9-5479-4dc6-b0d9-15cd82cc048d.png)
 
 
 ## Useful links
