@@ -87,7 +87,6 @@ SLO
 Metric events
 ![image](https://user-images.githubusercontent.com/40337213/224962148-dc12548b-5b77-4611-a925-ae2ad27f6a7a.png)
  
-
 Details
 ![image](https://user-images.githubusercontent.com/40337213/224930547-a64c2bdc-7e04-4b1d-b092-cb390bc47a9a.png)
 
@@ -95,6 +94,8 @@ Details
 
 ![image](https://user-images.githubusercontent.com/40337213/224931317-be620bf8-668d-4692-a98e-b16b6ff08f1b.png)
 
+Burn rate calculation
+![image](https://user-images.githubusercontent.com/40337213/225001482-6b859a9d-326b-4b84-8a03-ebe2c9851108.png)
 
 ## ITSM integration, default configurations:
 
