@@ -66,11 +66,11 @@
     ]
    },
    {
-    "delayInMinutes": "{{.realtime}}",
-    "severityLevel": "ERROR",
-    "tagFilter": {
-     "includeMode": "INCLUDE_ALL",
-     "tagFilters": [
+   "delayInMinutes": "{{.realtime}}",
+   "severityLevel": "ERROR",
+   "tagFilter": {
+   "includeMode": "INCLUDE_ALL",
+   "tagFilters": [
      {
       "context": "CONTEXTLESS",
       "key": "dt_ITSM",
