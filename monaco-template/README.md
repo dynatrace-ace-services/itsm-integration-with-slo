@@ -95,6 +95,9 @@ Details
 
 ![image](https://user-images.githubusercontent.com/40337213/224931317-be620bf8-668d-4692-a98e-b16b6ff08f1b.png)
 
+Explanation of a Burn Rate = 3.5 with a SLO Period = 1 week
+![image](https://user-images.githubusercontent.com/40337213/224998830-48ff5eb1-b8fc-46c3-a647-fb7e049541a3.png)
+
 
 ## ITSM integration, default configurations:
 
