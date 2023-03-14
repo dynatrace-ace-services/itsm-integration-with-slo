@@ -64,8 +64,9 @@
       "value": null
      }
     ]
-   },
-   {
+   }
+  },
+  {
    "delayInMinutes": "{{.realtime}}",
    "severityLevel": "ERROR",
    "tagFilter": {
