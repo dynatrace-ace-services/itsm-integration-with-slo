@@ -60,7 +60,20 @@
     "tagFilters": [
      {
       "context": "CONTEXTLESS",
-      "key": "ITSM",
+      "key": "dt_ITSM",
+      "value": null
+     }
+    ]
+   },
+   {
+    "delayInMinutes": "{{.realtime}}",
+    "severityLevel": "ERROR",
+    "tagFilter": {
+     "includeMode": "INCLUDE_ALL",
+     "tagFilters": [
+     {
+      "context": "CONTEXTLESS",
+      "key": "dt_ITSM",
       "value": null
      }
     ]
