@@ -38,7 +38,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 ## 4) ITSM integration (only once)
 
 `json` this template will create : 
- - alerting profile : `dt_ITSM_integration_SLO_alerts_notification` for burn rate and error budget alerts 
+ - alerting profile : `dt_ITSM_integration_SLO_alerts_notification` for burn rate alert 
  - alerting profile : `dt_ITSM_integration_problems_notification` with delay for persistent problems
  - auto tag : `dt_ITSM` for real time alert  
  - auto tag : `dt_SLO` on frontendservice used by the step 5)  
@@ -58,8 +58,6 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 - SLO : `[slo_prefix] - frontendservice - availability`
 - Metric Events : `[slo_prefix] - application - performance - fast burn alert` 
 - Metric Events : `[slo_prefix] - frontendservice - availability - fast burn alert`
-- Metric Events : `[slo_prefix] - application - performance - error budget alert` 
-- Metric Events : `[slo_prefix] - frontendservice - availability - error budget alert`
 
 `env.sh` setup the variables   
 - export `mz_name` = Management Zone name (for example "mz - name") 
@@ -73,7 +71,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
        
 ## 6) Alert notification
 
-`configure` 2 alert notifications to send Dynatrace Problems to your Service Desk tool based on these alerting profiles : 
+`configure` 2 alerts notifications to send Dynatrace Problems to your Service Desk tool based on these alerting profiles : 
 - alerting profile : `dt_ITSM_integration_SLO_alerts_notification` for burn rate and error budget alerts 
 - alerting profile : `dt_ITSM_integration_problems_notification` with delay for persistent problems
 
