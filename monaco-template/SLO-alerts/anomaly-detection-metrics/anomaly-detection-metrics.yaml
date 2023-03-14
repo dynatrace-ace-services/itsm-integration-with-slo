@@ -1,8 +1,6 @@
 config:
 - application-performance-fastburnalert: application-performance-fastburnalert.json
-- application-performance-errorbudgetalert: application-performance-errorbudgetalert.json
 - frontendservice-availability-fastburnalert: frontendservice-availability-fastburnalert.json
-- frontendservice-availability-errorbudgetalert: frontendservice-availability-errorbudgetalert.json
 application-performance-fastburnalert:
 - name: '[{{.Env.slo_prefix}}] - application - performance - fast burn alert'
 - sloprefix: '{{.Env.slo_prefix}}'
@@ -13,16 +11,6 @@ application-performance-fastburnalert:
 - enable: '{{.Env.application_performance_fastburnalert_enable}}'
 - tenanturl: 'https://{{.Env.MyTenant}}'
 - sloid: '/slo/application-performance.id'
-application-performance-errorbudgetalert:
-- name: '[{{.Env.slo_prefix}}] - application - performance - error budget alert'
-- sloprefix: '{{.Env.slo_prefix}}'
-- threshold: '{{.Env.application_performance_warning}}'
-- samples: '15'
-- dealerting: '15'
-- violating: '10'
-- enable: '{{.Env.application_performance_errorbudgetalert_enable}}'
-- tenanturl: 'https://{{.Env.MyTenant}}'
-- sloid: '/slo/application-performance.id'
 frontendservice-availability-fastburnalert:
 - name: '[{{.Env.slo_prefix}}] - frontendservice - availability - fast burn alert'
 - sloprefix: '{{.Env.slo_prefix}}'
@@ -31,15 +19,5 @@ frontendservice-availability-fastburnalert:
 - dealerting: '15'
 - violating: '1'
 - enable: '{{.Env.frontendservice_availability_fastburnalert_enable}}'
-- tenanturl: 'https://{{.Env.MyTenant}}'
-- sloid: '/slo/frontendservice-availability.id'
-frontendservice-availability-errorbudgetalert:
-- name: '[{{.Env.slo_prefix}}] - frontendservice - availability - error budget alert'
-- sloprefix: '{{.Env.slo_prefix}}'
-- threshold: '{{.Env.frontendservice_availability_warning}}'
-- samples: '15'
-- dealerting: '15'
-- violating: '10'
-- enable: '{{.Env.frontendservice_availability_errorbudgetalert_enable}}'
 - tenanturl: 'https://{{.Env.MyTenant}}'
 - sloid: '/slo/frontendservice-availability.id'
