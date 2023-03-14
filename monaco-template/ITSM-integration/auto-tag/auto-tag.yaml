@@ -2,6 +2,6 @@ config:
 - itsm: ITSM.json
 - slo: SLO.json
 itsm:
-- name: 'ITSM'
+- name: 'dt_ITSM'
 slo:
-- name: 'SLO'
+- name: 'dt_SLO'
