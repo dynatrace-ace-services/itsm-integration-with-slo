@@ -24,7 +24,7 @@
   export frontendservice_availability_period="-1w"
 
 #default metric events
-  export application_performance_fastburnalert_enable="true"
+  export application_performance_fastburnalert_enable="false" #check the padex is >0,85 befaore enabling the event
   export frontendservice_availability_fastburnalert_enable="true"
 
 #alerting profile
