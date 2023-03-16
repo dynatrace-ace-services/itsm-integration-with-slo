@@ -61,7 +61,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "dt_ITSM",
-      "value": null
+      "value": "real_time_alert"
      }
     ]
    }
@@ -75,7 +75,7 @@
      {
       "context": "CONTEXTLESS",
       "key": "dt_ITSM",
-      "value": null
+      "value": "real_time_alert"
      }
     ]
    }
