@@ -29,10 +29,11 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 `env.sh` : open the `easy-itsm-integration/template_monaco/env.sh` file and setup the variables :  
  - export `MyTenant` = abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...)  
  - export `MyToken` = dt0c01.1234ABCD.XXXX with the scope described above  
+ 
+     . env.sh
 
 `download` : backup the json configurations before starting
-     
-     . env.sh
+    
      ./monaco download -e=environments.yaml -p=auto-tag,alerting-profile,anomaly-detection-metrics,slo backup
 
 ## 4) ITSM integration (only once)
