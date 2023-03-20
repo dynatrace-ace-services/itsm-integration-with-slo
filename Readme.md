@@ -46,7 +46,7 @@ You can do that easily with monaco template (example for [French banck hollidays
 Problems seen by Dynatrace for an application : 
 ![image](https://user-images.githubusercontent.com/40337213/226326616-4dd84122-2270-45a5-80e3-44b96a4b5a7a.png)
 
-Notification send to the ITSM (Alert based on SLO burn rate)  
+Notification send to the ITSM  for this application (Alert based on SLO burn rate)  
 ![image](https://user-images.githubusercontent.com/40337213/226327019-52e9c960-c91c-47cf-91b8-13e20a2b27f2.png)
 
 
