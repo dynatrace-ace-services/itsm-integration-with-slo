@@ -25,14 +25,6 @@ Goal : be alerting if the problem is persistant and not fix after X minutes.
 - Create an alerting profile with X min delay (for example > 60 min)
 - Add ITSM Integration based on this alerting profile. 
 
-
-Problems seen by Dynatrace for an application : 
-![image](https://user-images.githubusercontent.com/40337213/226326616-4dd84122-2270-45a5-80e3-44b96a4b5a7a.png)
-
-Notification send to the ITSM (Alert based on SLO burn rate)  
-![image](https://user-images.githubusercontent.com/40337213/226327019-52e9c960-c91c-47cf-91b8-13e20a2b27f2.png)
-
-
 ## Best practices 
 
 - Configure Maintenance Windows to disable the notification of the ITSM integration.  
@@ -49,6 +41,13 @@ You can do that easily with monaco template (example for [French banck hollidays
 - SLO filtered by MZ => You can use the Simply Smarter with the SLO smarters which have been configured globaly by  tenant and can be filtered by MZ : click [here](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
 ![image](https://user-images.githubusercontent.com/40337213/224925027-3b6429c9-5479-4dc6-b0d9-15cd82cc048d.png)
+
+# Result 
+Problems seen by Dynatrace for an application : 
+![image](https://user-images.githubusercontent.com/40337213/226326616-4dd84122-2270-45a5-80e3-44b96a4b5a7a.png)
+
+Notification send to the ITSM (Alert based on SLO burn rate)  
+![image](https://user-images.githubusercontent.com/40337213/226327019-52e9c960-c91c-47cf-91b8-13e20a2b27f2.png)
 
 
 ## Useful links
