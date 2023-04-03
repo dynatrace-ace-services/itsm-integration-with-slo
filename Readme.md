@@ -1,6 +1,6 @@
 # ITSM Integration & SLO Quality of Service
 
-Foundations for deployment & configuration : [quickstart-ace-configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme)  
+Fundamentals for deployment & configuration : [quickstart-ace-configurator](https://github.com/dynatrace-ace-services/quickstart-ace-configurator#readme)  
 ✅ ITSM integration & SLO Quality of Service : [itsm-integration-with-slo](https://github.com/dynatrace-ace-services/itsm-integration-with-slo#readme) & [monaco-template](https://github.com/dynatrace-ace-services/itsm-integration-with-slo/tree/main/monaco-template)  
 Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
 
