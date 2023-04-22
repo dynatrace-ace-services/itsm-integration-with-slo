@@ -31,10 +31,10 @@ Create specifc SLO per management zone "Application Centric" on front entities f
  - export `MyToken` = dt0c01.1234ABCD.XXXX with the scope described above  
 
 
-`download` : backup the json configurations before starting
+`download` : backup the json configurations before starting   
      
-   . env.sh
-   ./monaco download -e=environments.yaml -p=auto-tag,alerting-profile,anomaly-detection-metrics,slo backup
+     . env.sh
+     ./monaco download -e=environments.yaml -p=auto-tag,alerting-profile,anomaly-detection-metrics,slo backup
 
 ## 4) ITSM integration (only once)
 
