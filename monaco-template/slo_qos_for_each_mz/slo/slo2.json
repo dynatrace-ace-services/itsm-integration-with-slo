@@ -1,0 +1,15 @@
+{
+ "enabled": true,
+ "errorBudgetBurnRate": {
+  "burnRateVisualizationEnabled": true,
+  "fastBurnThreshold": "{{.burnrate}}"
+ },
+ "evaluationType": "AGGREGATE",
+ "filter": "{{.filter}}",
+ "metricExpression": "(100)*(builtin:apps.web.actionCount.category:filter(eq(\"Apdex category\",SATISFIED)):splitBy())/(builtin:apps.web.actionCount.category:splitBy())",
+ "name": "{{ .name }}",
+ "target": "{{.target}}",
+ "timeframe": "{{.period}}",
+ "useRateMetric": true,
+ "warning": "{{.warning}}"
+}
