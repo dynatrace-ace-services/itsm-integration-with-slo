@@ -31,7 +31,7 @@
   export delay_for_persitent_problem=60 #minutes
 
 #Variables validation
-echo MyTenant='https://'$MyTenant
-echo MyToken=${MyToken:0:15}'...'
+echo DT_TENANT_URL=$DT_TENANT_URL
+echo DT_API_TOKEN=${DT_API_TOKEN:0:15}'...'
 echo mz_name=$mz_name
 echo slo_prefix=$slo_prefix
