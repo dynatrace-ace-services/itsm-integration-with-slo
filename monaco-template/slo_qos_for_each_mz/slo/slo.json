@@ -6,7 +6,7 @@
  },
  "evaluationType": "AGGREGATE",
  "filter": "{{.filter}}",
- "metricExpression": "{{.expression}}",
+ "metricExpression": "(100)*(builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy())",
  "name": "{{ .name }}",
  "target": "{{.target}}",
  "timeframe": "{{.period}}",
