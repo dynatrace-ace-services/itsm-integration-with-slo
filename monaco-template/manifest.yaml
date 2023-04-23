@@ -1,6 +1,7 @@
 manifestVersion: "1.0"
 projects:
-- name: project
+- name: slo_qos_preparation
+- name: slo_qos_for_each_mz
 environmentGroups:
 - name: default
   environments:
