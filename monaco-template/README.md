@@ -38,8 +38,8 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 `download` : backup the json configurations before starting   
      
      . env.sh
-     ./monaco download manifest.yaml -e MyEnv -p=auto-tag,alerting-profile,anomaly-detection-metrics,slo backup
-
+     ./monaco download manifest.yaml -e MyEnv
+     
 ## 4) ITSM integration (only once)
 
 `json` this template will create : 
