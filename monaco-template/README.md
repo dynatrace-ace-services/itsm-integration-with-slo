@@ -54,9 +54,8 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 `deploy` run only once by tenant
 
      . env.sh
-     ./monaco deploy manifest.yaml -o project/auto-tag
-     ./monaco deploy manifest.yaml -o project/alerting-profile
-
+     ./monaco deploy manifest.yaml -p slo_qos_preparation
+     
 ## 5) SLO alert (for each application based on management zone)
 
 `json` this template will create :  
@@ -73,8 +72,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 `deploy` run for each MZ application centric   
 
      . env.sh
-     ./monaco deploy manifest.yaml -o project/slo
-     ./monaco deploy manifest.yaml -o project/anomaly-detection-metrics
+     ./monaco deploy manifest.yaml -p slo_qos_for_each_mz
        
 ## 6) Alert notification
 
