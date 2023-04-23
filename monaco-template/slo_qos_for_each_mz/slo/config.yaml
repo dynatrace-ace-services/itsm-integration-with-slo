@@ -16,7 +16,7 @@ configs:
       burnrate:
         name: frontendservice_availability_burnrate
         type: environment
-      expression: (100)*(builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy()) 
+      expression: "(100)*(builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy())" 
       filter:
         format: "type(SERVICE),mzname({{.mz}}),tag(dt_SLO:frontendservice)"
         type: compound
@@ -55,7 +55,7 @@ configs:
       burnrate:
         name: application_performance_burnrate
         type: environment
-      expression: (100)*(builtin:apps.web.actionCount.category:filter(eq(\"Apdex category\",SATISFIED)):splitBy())/(builtin:apps.web.actionCount.category:splitBy())
+      expression: "(100)*(builtin:apps.web.actionCount.category:filter(eq(\"Apdex category\",SATISFIED)):splitBy())/(builtin:apps.web.actionCount.category:splitBy())"
       filter:
         format: "type(APPLICATION),mzname({{.mz}})"
         type: compound
