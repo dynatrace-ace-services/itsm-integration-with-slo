@@ -1,12 +1,5 @@
 # Configure SLO alerts and ITSM integration with template monaco
-
-Fundamentals for deployment & configuration :  [fundamentals](https://github.com/dynatrace-ace-services/fundamentals/#readme) & [monaco example](https://github.com/dynatrace-ace-services/dynatrace-lab/tree/main/project)    
-ITSM integration & SLO Quality of Service : [itsm-integration-with-slo](https://github.com/dynatrace-ace-services/itsm-integration-with-slo#readme) & ✅ [monaco-template](https://github.com/dynatrace-ace-services/itsm-integration-with-slo/tree/main/monaco-template)  
-Dashboarding Dynatrace Simply Smarter : [slo-simply-smarter with monaco template](https://github.com/dynatrace-ace-services/slo-simply-smarter#readme)  
-
-Create specifc SLO per management zone "Application Centric" on front entities for a real time alerting : 
-
-![image](https://user-images.githubusercontent.com/40337213/221270094-5b08615b-aa8f-459c-8108-60582657e31f.png)
+(deprecated - monaco v1)
 
 ## 1) Prerequisites installation
 
