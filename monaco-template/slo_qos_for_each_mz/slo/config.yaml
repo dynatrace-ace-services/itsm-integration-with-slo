@@ -16,7 +16,7 @@ configs:
       burnrate:
         name: frontendservice_availability_burnrate
         type: environment
-      expression: (100)*(builtin:service.errors.server.successCount:splitBy())/(builtin:service.requestCount.server:splitBy())
+      expression: 
       filter:
         name: mz_name
         type: environment
@@ -29,7 +29,7 @@ configs:
       warning:
         name: frontendservice_availability_warning
         type: environment
-    template: slo.json
+    template: slo1.json
     skip: false
   type:
     api: slo
