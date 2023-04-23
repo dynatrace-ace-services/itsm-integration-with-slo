@@ -31,8 +31,8 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     chmod +x monaco
        
 `env.sh` : open the `easy-itsm-integration/template_monaco/env.sh` file and setup the variables :  
- - export `MyTenant` = abcd123.live.dynatrace.com for saas or export MyTenant=domaine.com/e/abcd12234 for managed (without https://...)  
- - export `MyToken` = dt0c01.1234ABCD.XXXX with the scope described above  
+ - export `DT_TENANT_URL` = https://abcd123.live.dynatrace.com for saas or expor thttps://domaine.com/e/abcd12234 for managed
+ - export `DT_API_TOKEN` = dt0c01.1234ABCD.XXXX with the scope described above  
 
 
 `download` : backup the json configurations before starting   
@@ -54,7 +54,8 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 `deploy` run only once by tenant
 
      . env.sh
-     ./monaco deploy -e=environments.yaml ITSM-integration
+     ./monaco deploy manifest.yaml -o project/auto-tag
+     ./monaco deploy manifest.yaml -o project/alerting-profile
 
 ## 5) SLO alert (for each application based on management zone)
 
@@ -72,7 +73,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 `deploy` run for each MZ application centric   
 
      . env.sh
-     ./monaco deploy -e=environments.yaml SLO-alerts
+     ./monaco deploy manifest.yaml -o project/slo
        
 ## 6) Alert notification
 
