@@ -31,7 +31,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
     chmod +x monaco
        
 `env.sh` : open the `easy-itsm-integration/template_monaco/env.sh` file and setup the variables :  
- - export `DT_TENANT_URL` = https://abcd123.live.dynatrace.com for saas or expor thttps://domaine.com/e/abcd12234 for managed
+ - export `DT_TENANT_URL` = https://abcd123.live.dynatrace.com for saas or https://domaine.com/e/abcd12234 for managed
  - export `DT_API_TOKEN` = dt0c01.1234ABCD.XXXX with the scope described above  
 
 
