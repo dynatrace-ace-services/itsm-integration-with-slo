@@ -74,6 +74,7 @@ Create specifc SLO per management zone "Application Centric" on front entities f
 
      . env.sh
      ./monaco deploy manifest.yaml -o project/slo
+     ./monaco deploy manifest.yaml -o project/anomaly-detection-metrics
        
 ## 6) Alert notification
 
