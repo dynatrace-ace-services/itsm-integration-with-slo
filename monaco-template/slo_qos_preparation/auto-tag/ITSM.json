@@ -1,25 +1,27 @@
 {
- "description": "for alerting profile ITSM_integration_problems_notification",
- "entitySelectorBasedRules": [
-  {
-   "enabled": true,
-   "entitySelector": "type(HTTP_CHECK)",
-   "normalization": "LEAVE_TEXT_AS_IS",
-   "valueFormat": "real_time_alert"
-  },
-  {
-   "enabled": true,
-   "entitySelector": "type(SYNTHETIC_TEST)",
-   "normalization": "LEAVE_TEXT_AS_IS",
-   "valueFormat": "real_time_alert"
-  },
-  {
-   "enabled": true,
-   "entitySelector": "type(EXTERNAL_SYNTHETIC_TEST)",
-   "normalization": "LEAVE_TEXT_AS_IS",
-   "valueFormat": "real_time_alert"
-  }
- ],
- "name": "{{ .name }}",
- "rules": []
+  "name": "{{.name}}",
+  "description": "for alerting profile ITSM_integration_problems_notification",
+  "rules": [
+    {
+      "enabled": true,
+      "valueFormat": "real_time_alert",
+      "valueNormalization": "Leave text as-is",
+      "type": "SELECTOR",
+      "entitySelector": "type(HTTP_CHECK)"
+    },
+    {
+      "enabled": true,
+      "valueFormat": "real_time_alert",
+      "valueNormalization": "Leave text as-is",
+      "type": "SELECTOR",
+      "entitySelector": "type(SYNTHETIC_TEST)"
+    },
+    {
+      "enabled": true,
+      "valueFormat": "real_time_alert",
+      "valueNormalization": "Leave text as-is",
+      "type": "SELECTOR",
+      "entitySelector": "type(EXTERNAL_SYNTHETIC_TEST)"
+    }
+  ]
 }

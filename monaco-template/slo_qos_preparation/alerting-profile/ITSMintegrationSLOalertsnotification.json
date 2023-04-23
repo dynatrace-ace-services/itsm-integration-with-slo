@@ -1,39 +1,36 @@
 {
- "displayName": "{{ .name }}",
- "eventTypeFilters": [
-  {
-   "customEventFilter": {
-    "customTitleFilter": {
-     "caseInsensitive": true,
-     "enabled": true,
-     "negate": false,
-     "operator": "ENDS_WITH",
-     "value": "fast burn alert"
+  "name": "{{ . name }}",
+  "severityRules": [
+    {
+      "severityLevel": "CUSTOM_ALERT",
+      "delayInMinutes": 0,
+      "tagFilterIncludeMode": "NONE"
     }
-   }
-  },
-  {
-   "customEventFilter": {
-    "customTitleFilter": {
-     "caseInsensitive": true,
-     "enabled": true,
-     "negate": false,
-     "operator": "ENDS_WITH",
-     "value": "error budget alert"
+  ],
+  "eventFilters": [
+    {
+      "type": "CUSTOM",
+      "customFilter": {
+        "titleFilter": {
+          "operator": "ENDS_WITH",
+          "value": "fast burn alert",
+          "negate": false,
+          "enabled": true,
+          "caseSensitive": false
+        }
+      }
+    },
+    {
+      "type": "CUSTOM",
+      "customFilter": {
+        "titleFilter": {
+          "operator": "ENDS_WITH",
+          "value": "error budget alert",
+          "negate": false,
+          "enabled": true,
+          "caseSensitive": false
+        }
+      }
     }
-   }
-  }
- ],
- "managementZoneId": null,
- "mzId": null,
- "rules": [
-  {
-   "delayInMinutes": "{{.realtime}}",
-   "severityLevel": "CUSTOM_ALERT",
-   "tagFilter": {
-    "includeMode": "NONE",
-    "tagFilters": []
-   }
-  }
- ]
+  ]
 }
