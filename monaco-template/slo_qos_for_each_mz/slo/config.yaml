@@ -73,7 +73,7 @@ configs:
       warning:
         name: application_performance_warning
         type: environment
-    template: slo2.json
+    template: slo.json
     skip: false
   type:
     api: slo
