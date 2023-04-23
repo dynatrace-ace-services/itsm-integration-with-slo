@@ -1,10 +1,17 @@
 configs:
 - id: frontendservice-availability
-  config:
     name:
-      name: slo_prefix
-      type: environment
+      format: "[{{ .sloprefix }}] - frontendservice - availability"
+      type: compound
+      references:
+        - sloprefix
+      sloprefix:
+        name: slo_prefix
+        type: environment
     parameters:
+      sloprefix:
+        name: slo_prefix
+        type: environment
       burnrate:
         name: frontendservice_availability_burnrate
         type: environment
@@ -28,9 +35,17 @@ configs:
 - id: application-performance
   config:
     name:
-      name: slo_prefix
-      type: environment
+      format: "[{{ .sloprefix }}] - application - performance"
+      type: compound
+      references:
+        - sloprefix
+      sloprefix:
+        name: slo_prefix
+        type: environment
     parameters:
+      sloprefix:
+        name: slo_prefix
+        type: environment
       burnrate:
         name: application_performance_burnrate
         type: environment
